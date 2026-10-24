@@ -1,0 +1,83 @@
+[
+  {
+    "id": "coffee-beans",
+    "name": "Coffee Beans咖啡豆"
+  },
+  {
+    "id": "bean-select",
+    "name": "Selection选取",
+    "parentId": "coffee-beans"
+  },
+  {
+    "id": "bean-roast",
+    "name": "Roast烘焙",
+    "parentId": "coffee-beans"
+  },
+  {
+    "id": "bean-process",
+    "name": "Process发酵处理",
+    "parentId": "coffee-beans"
+  },
+  {
+    "id": "bean-storage",
+    "name": "Storage储存",
+    "parentId": "coffee-beans"
+  },
+  {
+    "id": "classic-coffee",
+    "name": "Classic Coffee经典咖啡"
+  },
+  {
+    "id": "classic-espresso",
+    "name": "Espresso浓缩",
+    "parentId": "classic-coffee"
+  },
+  {
+    "id": "classic-milk",
+    "name": "Milk奶咖",
+    "parentId": "classic-coffee"
+  },
+  {
+    "id": "classic-filter",
+    "name": "Filter过滤",
+    "parentId": "classic-coffee"
+  },
+  {
+    "id": "modern-signature",
+    "name": "Modern Signature现代特调"
+  },
+  {
+    "id": "modern-espresso-twist",
+    "name": "Espresso Twist意式变奏",
+    "parentId": "modern-signature"
+  },
+  {
+    "id": "modern-milk-twist",
+    "name": "Milk Twist奶咖变奏",
+    "parentId": "modern-signature"
+  },
+  {
+    "id": "coffee-syrups",
+    "name": "Syrups糖浆"
+  },
+  {
+    "id": "syrup-base",
+    "name": "Base基础糖浆",
+    "parentId": "coffee-syrups"
+  },
+  {
+    "id": "syrup-fruit",
+    "name": "Fruit果味糖浆",
+    "parentId": "coffee-syrups"
+  },
+  {
+    "id": "syrup-spice",
+    "name": "Spice香料糖浆",
+    "parentId": "coffee-syrups"
+  },
+  {
+    "id": "syrup-floral",
+    "name": "Floral花香糖浆",
+    "parentId": "coffee-syrups"
+  }
+]

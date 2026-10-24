@@ -1,0 +1,4706 @@
+{
+  "task": "COFFEE-009",
+  "date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "criteriaNote": "每款须有材料+做法；字段一致；特调库自制糖浆拆独立卡并 linkedFromRecipeIds；弱出处未收。未交 Codex、未找小严审。",
+  "total": 119,
+  "countsByLabel": {
+    "syrup-base": 38,
+    "syrup-spice": 27,
+    "syrup-fruit": 31,
+    "syrup-floral": 23
+  },
+  "countsByCredibility": {
+    "自拟标准比例": 94,
+    "品牌官方": 13,
+    "网络食谱": 12
+  },
+  "linkedFromModernRecipes": 44,
+  "batch": "SYRUP-001",
+  "syrups": [
+    {
+      "id": "simple-syrup-1-1",
+      "name": "简单糖浆（1:1）",
+      "nameEn": "Simple Syrup 1:1",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "200 g（约 1 cup）"
+        },
+        {
+          "item": "水",
+          "amount": "240 ml（约 1 cup）"
+        }
+      ],
+      "method": [
+        "小锅中等火混合糖与水",
+        "持续搅拌至糖完全溶解、液体由浑变清（约 2–3 分钟），勿猛滚",
+        "离火放凉后装消毒瓶，冷藏"
+      ],
+      "shelfLife": "冷藏约 3–4 周",
+      "source": "Difford's Guide / 家用咖啡糖浆通识（1:1 标准比例）",
+      "sourceUrls": [
+        "https://www.diffordsguide.com/encyclopedia/3593/cocktails/2-to-1-rich-sugar-syrup-versus-1-to-1-simple-syrup",
+        "https://homeespressolab.com/guides/simple-syrup-recipe/"
+      ],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "冰美式、冰摇浓缩、通宁类底甜",
+      "linkedFromRecipeIds": [
+        "iced-shaken-espresso-plain",
+        "espresso-martini-iba",
+        "coffee-tonic-koppi"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "rich-syrup-2-1",
+      "name": "富糖浆（2:1）",
+      "nameEn": "Rich Simple Syrup 2:1",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "400 g（约 2 cups）"
+        },
+        {
+          "item": "水",
+          "amount": "240 ml（约 1 cup）"
+        }
+      ],
+      "method": [
+        "小锅小火加热糖与水，搅拌至完全溶解（2:1 需加热）",
+        "勿长时间猛煮；溶解后离火放凉",
+        "装瓶冷藏；用量约为 1:1 糖浆的一半"
+      ],
+      "shelfLife": "冷藏约 6–8 周（比 1:1 更耐放）",
+      "source": "Difford's Guide 富糖浆通识",
+      "sourceUrls": [
+        "https://www.diffordsguide.com/encyclopedia/3593/cocktails/2-to-1-rich-sugar-syrup-versus-1-to-1-simple-syrup"
+      ],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "需要高甜低稀释的浓缩特调、糖浆基底",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "vanilla-syrup-starbucks",
+      "name": "香草糖浆",
+      "nameEn": "Vanilla Syrup (Starbucks At Home)",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "香草荚（或香草精）",
+          "amount": "1 根（或 1½ Tbsp 香草精）",
+          "note": "用精则等糖水煮好放凉后再加"
+        }
+      ],
+      "method": [
+        "小锅放入糖、水与香草荚（若用荚），煮沸后转小火煮约 5–7 分钟",
+        "若用香草精：糖水煮好放凉后再拌入",
+        "放凉 20–30 分钟，取出香草荚，装瓶冷藏"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Vanilla Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/vanilla-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "香草拿铁、焦糖玛奇朵底、香草冷萃、香草甜奶油",
+      "linkedFromRecipeIds": [
+        "caramel-macchiato-starbucks",
+        "iced-caramel-macchiato-starbucks",
+        "blonde-vanilla-latte-sb",
+        "cascara-fizz-metric",
+        "dirty-matcha-breville",
+        "iced-vanilla-lavender-oatfoam-sb",
+        "almond-vanilla-iced-latte",
+        "chocolate-cream-cold-brew",
+        "pistachio-cream-cold-brew",
+        "vanilla-espresso-tonic",
+        "vanilla-cold-brew",
+        "salted-caramel-cold-foam-cb3"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "toasted-vanilla-syrup-starbucks",
+      "name": "烤香草糖浆",
+      "nameEn": "Toasted Vanilla Syrup (Starbucks At Home)",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "香草荚（或香草精）",
+          "amount": "1 根（或 1 Tbsp）"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        }
+      ],
+      "method": [
+        "香草荚纵切，预热锅中火烤约 3 分钟（用精则等第 3 步关火后加）",
+        "分次加入糖（约每次 ¼ cup）烤至金棕色焦糖化，全部 1 cup 糖焦糖化后离火冷却至多 5 分钟（注意烫）",
+        "加水回锅，小火煮至焦糖溶解混匀；用精则关火后加入；用荚则放凉后取出荚"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Toasted Vanilla Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/toasted-vanilla-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "烤香草冰摇咖啡、香草向特调加深焦香",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "honey-syrup-starbucks",
+      "name": "蜂蜜糖浆",
+      "nameEn": "Honey Syrup (Starbucks At Home)",
+      "labelHint": "syrup-base",
+      "yield": "~400 ml",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        }
+      ],
+      "method": [
+        "中火小锅混合蜂蜜与水至轻微沸腾",
+        "保持小火煮 5–7 分钟，偶尔搅拌",
+        "离火放凉 20–30 分钟后装瓶冷藏"
+      ],
+      "shelfLife": "冷藏最多约 1 周（依源）",
+      "source": "Starbucks® At Home · Honey Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/honey-syrup",
+        "https://athome.starbucks.com/recipe/cold-brew-salted-honey-foam"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "咸蜜冷萃奶盖、蜂蜜杏仁奶澳白、蜂蜜薰衣草冷奶盖",
+      "linkedFromRecipeIds": [
+        "cold-brew-salted-honey-foam-starbucks",
+        "honey-almondmilk-flat-white",
+        "honey-lavender-cold-foam"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "honey-cinnamon-syrup-starbucks",
+      "name": "蜂蜜肉桂糖浆",
+      "nameEn": "Honey Cinnamon Syrup (Starbucks At Home)",
+      "labelHint": "syrup-spice",
+      "yield": "~400 ml",
+      "ingredients": [
+        {
+          "item": "蜂蜜",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "2 根"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "中锅将蜂蜜、肉桂棒与水煮沸",
+        "转小火煮 10 分钟后离火",
+        "拌入香草精，完全放凉后取出肉桂棒，装瓶"
+      ],
+      "shelfLife": "冷藏最多约 10 天（依源）",
+      "source": "Starbucks® At Home · Honey Cinnamon Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/honey-cinnamon-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "蜂蜜肉桂拿铁、热牛奶咖啡加甜",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "brown-sugar-cinnamon-simple-syrup-starbucks",
+      "name": "棕糖肉桂简单糖浆",
+      "nameEn": "Brown Sugar Cinnamon Simple Syrup (Starbucks At Home)",
+      "labelHint": "syrup-spice",
+      "yield": "~250 ml",
+      "ingredients": [
+        {
+          "item": "红糖/棕糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "2 tsp"
+        },
+        {
+          "item": "肉豆蔻粉",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "所有材料入锅煮沸",
+        "搅拌约 3 分钟至糖溶解",
+        "离火放凉 20–30 分钟后装瓶"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Brown Sugar Cinnamon Simple Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/brown-sugar-cinnamon-simple-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "冰棕糖燕麦奶摇摇浓缩、肉桂冷萃",
+      "linkedFromRecipeIds": [
+        "brown-sugar-oatmilk-shaken-espresso",
+        "cinnamon-cold-brew"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "brown-sugar-cinnamon-syrup-starbucks",
+      "name": "棕糖肉桂糖浆（棒料版）",
+      "nameEn": "Brown Sugar Cinnamon Syrup (Starbucks At Home)",
+      "labelHint": "syrup-spice",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "红糖/棕糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "2–3 根",
+          "note": "页示加棒小火煮；家用常见 2–3 根"
+        }
+      ],
+      "method": [
+        "小锅混合棕糖、白砂糖与水煮沸",
+        "糖溶后转小火，加入肉桂棒煮 5 分钟",
+        "离火放凉，取出肉桂棒，装瓶冷藏"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Brown Sugar Cinnamon Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/brown-sugar-cinnamon-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "棕糖肉桂向拿铁/冰摇",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "sugar-cookie-syrup-starbucks",
+      "name": "糖霜饼干糖浆",
+      "nameEn": "Sugar Cookie Syrup (Starbucks At Home)",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml（约够 16 杯）",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "2 tsp"
+        },
+        {
+          "item": "杏仁精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "小锅混合糖与水，煮沸后转小火",
+        "小火煮 5–7 分钟，偶尔搅拌",
+        "拌入香草精与杏仁精，离火放凉 20–30 分钟后装瓶"
+      ],
+      "shelfLife": "密封冷藏最多约 14 天（依源）",
+      "source": "Starbucks® At Home · Sugar Cookie Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/sugar-cookie-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "糖霜饼干拿铁",
+      "linkedFromRecipeIds": [
+        "sugar-cookie-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "pistachio-syrup-starbucks",
+      "name": "开心果糖浆",
+      "nameEn": "Pistachio Syrup (Starbucks At Home)",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "烤熟无盐开心果",
+          "amount": "0.5 cup",
+          "note": "去壳切碎"
+        },
+        {
+          "item": "杏仁精",
+          "amount": "0.5 tsp"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch（可选）"
+        }
+      ],
+      "method": [
+        "小锅糖加水煮沸后转小火；开心果去壳切碎",
+        "可加 pinch 盐；加入切碎开心果再煮 8–10 分钟，偶尔搅拌",
+        "离火稍凉，细筛过滤，拌入杏仁精，装瓶"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Pistachio Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/pistachio-syrup",
+        "https://athome.starbucks.com/recipe/pistachio-latte"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "开心果拿铁、开心果奶油冷萃",
+      "linkedFromRecipeIds": [
+        "pistachio-latte-starbucks",
+        "pistachio-cream-cold-brew"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "pumpkin-spice-syrup-starbucks",
+      "name": "南瓜香料糖浆",
+      "nameEn": "Homemade Pumpkin Spice Syrup (Starbucks At Home)",
+      "labelHint": "syrup-spice",
+      "yield": "~约 8 杯饮品用量",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1.5 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1.5 cup"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "6 根"
+        },
+        {
+          "item": "丁香粉",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "姜粉",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "肉豆蔻粉",
+          "amount": "2 tsp"
+        },
+        {
+          "item": "南瓜泥 pumpkin purée",
+          "amount": "4 Tbsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水，加热至轻微沸腾",
+        "糖溶后加入肉桂棒、丁香、姜、肉豆蔻与南瓜泥，小火煮 20 分钟",
+        "离火立即用纱布过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏最多约 1 周（依源）",
+      "source": "Starbucks® At Home · Homemade Pumpkin Spice Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/homemade-pumpkin-spice-syrup",
+        "https://athome.starbucks.com/recipe/pumpkin-spice-latte"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "南瓜香料拿铁、南瓜奶油冷萃",
+      "linkedFromRecipeIds": [
+        "pumpkin-spice-latte-starbucks"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "sweet-pumpkin-spice-syrup-starbucks",
+      "name": "甜南瓜香料糖浆",
+      "nameEn": "Sweet Pumpkin Spice Syrup (Starbucks At Home)",
+      "labelHint": "syrup-spice",
+      "yield": "~250 ml",
+      "ingredients": [
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "红糖/棕糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "南瓜泥",
+          "amount": "6 Tbsp"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "南瓜派香料粉",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "锅中放入水、两种糖、南瓜泥、香草精与南瓜派香料",
+        "小火煮约 4 分钟至糖融化",
+        "细筛过滤入容器，放凉冷藏"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Sweet Pumpkin Spice Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/sweet-pumpkin-spice-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "南瓜向拿铁/冷萃（甜味更重的快手版）",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "gingerbread-syrup-starbucks",
+      "name": "姜饼糖浆",
+      "nameEn": "Gingerbread Syrup (Starbucks At Home)",
+      "labelHint": "syrup-spice",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "浅色红糖（轻压）",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "糖蜜 molasses",
+          "amount": "2 Tbsp"
+        },
+        {
+          "item": "姜粉",
+          "amount": "0.5 tsp"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "0.5 tsp"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "中锅混合全部材料并搅拌",
+        "煮沸后转小火煮 5 分钟，偶尔搅拌",
+        "离火放凉 20–30 分钟；使用前摇匀"
+      ],
+      "shelfLife": "冷藏最多约 2 周（依源）",
+      "source": "Starbucks® At Home · Gingerbread Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/gingerbread-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "姜饼拿铁",
+      "linkedFromRecipeIds": [
+        "gingerbread-latte-allrecipes"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "grapefruit-basil-syrup-starbucks",
+      "name": "西柚罗勒糖浆",
+      "nameEn": "Grapefruit Basil Simple Syrup (Starbucks At Home)",
+      "labelHint": "syrup-fruit",
+      "yield": "~100 ml",
+      "ingredients": [
+        {
+          "item": "水",
+          "amount": "1 oz"
+        },
+        {
+          "item": "西柚汁",
+          "amount": "1 oz"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.25 cup"
+        },
+        {
+          "item": "新鲜罗勒叶",
+          "amount": "0.25 cup"
+        },
+        {
+          "item": "西柚皮屑",
+          "amount": "1 个小西柚的皮屑"
+        }
+      ],
+      "method": [
+        "小锅混合全部材料，慢火煮沸并搅拌至糖溶解",
+        "离火放凉 20–30 分钟",
+        "过滤入密封容器"
+      ],
+      "shelfLife": "冷藏最多约 1 个月（依源）",
+      "source": "Starbucks® At Home · Grapefruit Basil Simple Syrup",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/grapefruit-basil-simple-syrup"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "西柚冷萃、柑橘冰美式",
+      "linkedFromRecipeIds": [
+        "grapefruit-cold-brew"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "caramel-syrup-brown-sugar-quick",
+      "name": "焦糖风味糖浆（棕糖快手）",
+      "nameEn": "Quick Caramel-Style Syrup (Brown Sugar)",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "浅色红糖",
+          "amount": "200 g（约 1 cup）"
+        },
+        {
+          "item": "水",
+          "amount": "240 ml（约 1 cup）"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "海盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "锅中混合红糖与水，中火搅拌至溶解",
+        "离火拌入香草精与 pinch 盐",
+        "放凉装瓶；非真焦糖化工艺，风味偏焦糖向"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Home Espresso Lab 快手焦糖糖浆通识",
+      "sourceUrls": [
+        "https://homeespressolab.com/guides/simple-syrup-recipe/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "焦糖拿铁、冰焦糖玛奇朵糖浆层",
+      "linkedFromRecipeIds": [
+        "nescafe-iced-caramel-latte-macchiato",
+        "caramel-brulee-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "true-caramel-sauce",
+      "name": "真焦糖酱",
+      "nameEn": "True Caramel Sauce",
+      "labelHint": "syrup-base",
+      "yield": "~200 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "100 g（约 0.5 cup）"
+        },
+        {
+          "item": "温热淡奶油或全脂奶",
+          "amount": "120 ml（约 0.5 cup）"
+        },
+        {
+          "item": "海盐",
+          "amount": "少许 pinch"
+        },
+        {
+          "item": "无盐黄油",
+          "amount": "1 tsp（可选）"
+        }
+      ],
+      "method": [
+        "干锅中火熔化糖，旋锅不搅拌至金琥珀色",
+        "小心倒入温热奶油/奶（会溅），搅拌至顺滑",
+        "加 pinch 盐与可选黄油；放凉后装瓶（偏酱、可淋）"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Home Espresso Lab / 家用焦糖酱通识",
+      "sourceUrls": [
+        "https://homeespressolab.com/guides/simple-syrup-recipe/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "焦糖玛奇朵淋面、咸焦糖摩卡装饰",
+      "linkedFromRecipeIds": [
+        "caramel-macchiato-starbucks",
+        "iced-caramel-macchiato-starbucks",
+        "salted-caramel-mocha-starbucks",
+        "salted-caramel-cold-foam-cb3",
+        "espresso-con-panna-starbucks"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "salted-caramel-syrup",
+      "name": "咸焦糖糖浆",
+      "nameEn": "Salted Caramel Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~250 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "200 g"
+        },
+        {
+          "item": "水（焦糖用）",
+          "amount": "60 ml"
+        },
+        {
+          "item": "热水（稀释）",
+          "amount": "120 ml"
+        },
+        {
+          "item": "海盐",
+          "amount": "1–1½ tsp 按口味"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp（可选）"
+        }
+      ],
+      "method": [
+        "锅中糖+60 ml 水中火煮至深琥珀色（勿搅拌，可旋锅）",
+        "离火小心加入热水搅匀成可倒糖浆稠度",
+        "加海盐与可选香草精，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（真焦糖化 + 盐）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "咸焦糖摩卡、咸焦糖冷萃奶盖",
+      "linkedFromRecipeIds": [
+        "salted-caramel-mocha-starbucks",
+        "salted-caramel-cold-foam-cb3"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "butter-caramel-sauce",
+      "name": "黄油焦糖酱",
+      "nameEn": "Butter Caramel Sauce",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "无盐黄油",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "红糖（压实）",
+          "amount": "1 cup"
+        },
+        {
+          "item": "淡奶油",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "中火锅中混合黄油、红糖与奶油，搅拌 3–4 分钟至顺滑",
+        "离火拌入香草精",
+        "放凉装瓶；偏酱体，可作淋面"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Barista At Home / 家用焦糖酱通识",
+      "sourceUrls": [
+        "https://myhomebarista.com/guides/coffee-syrup-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "焦糖拿铁、奶油糖向特调",
+      "linkedFromRecipeIds": [
+        "salted-butterscotch-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "mocha-chocolate-syrup",
+      "name": "摩卡巧克力糖浆/酱",
+      "nameEn": "Mocha Chocolate Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "无糖可可粉",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "盐",
+          "amount": "¼ tsp"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "0.5 tsp"
+        }
+      ],
+      "method": [
+        "锅中先干拌糖、可可粉与盐",
+        "逐渐加水搅匀无颗粒，中火加热至轻微沸腾，煮 3–5 分钟至略稠",
+        "离火拌入香草精，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Methodical Coffee · Chocolate Coffee Syrup",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/how-to-make-coffee-syrup-at-home-easy-diy-recipes-for-delicious-coffee-drinks"
+      ],
+      "credibility": "品牌官方",
+      "usesInCoffee": "摩卡、冰摩卡、薄荷摩卡、摩卡冷萃、香橙摩卡",
+      "linkedFromRecipeIds": [
+        "caffe-mocha-starbucks",
+        "iced-mocha-starbucks",
+        "iced-cinnamon-dolce-mocha-sb",
+        "peppermint-mocha-cnbc",
+        "mocha-cold-brew",
+        "orange-mocha",
+        "salted-caramel-mocha-starbucks",
+        "affogato-lavazza",
+        "chocolate-affogato"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "white-chocolate-sauce",
+      "name": "白巧克力酱",
+      "nameEn": "White Chocolate Sauce",
+      "labelHint": "syrup-base",
+      "yield": "~250 ml",
+      "ingredients": [
+        {
+          "item": "白巧克力碎/块",
+          "amount": "150 g"
+        },
+        {
+          "item": "淡奶油或全脂奶",
+          "amount": "120 ml"
+        },
+        {
+          "item": "香草精",
+          "amount": "0.5 tsp（可选）"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "小火加热奶油/奶至冒热气（勿滚）",
+        "倒入白巧搅拌至完全融化顺滑",
+        "加可选香草与 pinch 盐；温热使用或冷藏回温"
+      ],
+      "shelfLife": "冷藏约 5–7 天",
+      "source": "自拟标准比例（白巧甘纳许式）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "白摩卡",
+      "linkedFromRecipeIds": [
+        "mocha-bianco"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "hazelnut-syrup-toasted",
+      "name": "榛果糖浆",
+      "nameEn": "Hazelnut Syrup (Toasted Nut)",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "生榛果",
+          "amount": "约 0.5–1 cup",
+          "note": "烤后去皮压碎"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "榛果精",
+          "amount": "1 tsp（可选）"
+        }
+      ],
+      "method": [
+        "烤箱约 175°C 烤榛果 10–12 分钟，去皮压碎",
+        "糖加水加热溶解，加入碎榛果离火浸泡 20–30 分钟",
+        "细筛过滤，可选加榛果精，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 3 周",
+      "source": "Barista At Home / Vigilant Coffee 通识",
+      "sourceUrls": [
+        "https://myhomebarista.com/guides/coffee-syrup-recipes/",
+        "https://vigilantcoffee.com/recipes/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "榛果拿铁、摩卡加榛果",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "almond-syrup",
+      "name": "杏仁糖浆",
+      "nameEn": "Almond Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "杏仁精",
+          "amount": "1–1½ tsp"
+        },
+        {
+          "item": "烤杏仁片（可选浸泡）",
+          "amount": "¼ cup"
+        }
+      ],
+      "method": [
+        "糖加水溶解成 1:1 糖浆",
+        "可选将烤杏仁片浸泡 15–20 分钟后过滤",
+        "离火拌入杏仁精，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（杏仁精 + 1:1）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "莱切冰咖、杏仁向拿铁",
+      "linkedFromRecipeIds": [
+        "caffe-leccese-lavazza"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "toasted-coconut-syrup",
+      "name": "烤椰糖浆",
+      "nameEn": "Toasted Coconut Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "椰丝（无糖）",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "椰子精（可选）",
+          "amount": "0.5 tsp"
+        }
+      ],
+      "method": [
+        "干锅或烤箱浅烤椰丝至金黄香气",
+        "糖加水溶解，加入烤椰丝小火煮 5 分钟后离火浸泡 15 分钟",
+        "过滤，可选加椰子精，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（烤椰浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "烤椰冰咖啡、椰香冷奶盖冷萃",
+      "linkedFromRecipeIds": [
+        "toasted-coconut-iced-nespresso",
+        "coconut-cold-foam-cold-brew"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "toffee-nut-syrup",
+      "name": "太妃坚果糖浆",
+      "nameEn": "Toffee Nut Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "红糖",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.25 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "烤榛果或混合坚果碎",
+          "amount": "⅓ cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "黄油（可选）",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "糖加水加热溶解，加入坚果碎小火煮 8–10 分钟",
+        "离火过滤，拌入香草、可选黄油与 pinch 盐",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（太妃+坚果浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "咸焦糖摩卡（太妃坚果层）、太妃坚果拿铁",
+      "linkedFromRecipeIds": [
+        "salted-caramel-mocha-starbucks",
+        "toffee-nut-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "maple-syrup-ready",
+      "name": "枫糖浆（纯枫糖稀释版）",
+      "nameEn": "Maple Coffee Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "纯枫糖浆（Grade A/B）",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.5 cup",
+          "note": "过稠可再加水"
+        },
+        {
+          "item": "香草精",
+          "amount": "0.5 tsp（可选）"
+        }
+      ],
+      "method": [
+        "小火混合枫糖浆与水至均匀（勿猛煮以免变苦）",
+        "可选加香草精",
+        "放凉装瓶；已是成品枫糖亦可直接按 Tbsp 加杯"
+      ],
+      "shelfLife": "开封后冷藏约 3–4 周（依枫糖标签）",
+      "source": "自拟标准比例（枫糖稀释便于冷萃）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "枫糖燕麦拿铁",
+      "linkedFromRecipeIds": [
+        "maple-oat-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "brown-sugar-syrup",
+      "name": "红糖/棕糖糖浆",
+      "nameEn": "Brown Sugar Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "深色红糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "1 tsp（可选）"
+        }
+      ],
+      "method": [
+        "锅中混合红糖与水，加热至溶解",
+        "可选加肉桂粉再煮 1–2 分钟",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 3–4 周",
+      "source": "Barista At Home · Brown Sugar Syrup",
+      "sourceUrls": [
+        "https://myhomebarista.com/guides/coffee-syrup-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "冰棕糖燕麦奶摇摇浓缩底甜",
+      "linkedFromRecipeIds": [
+        "brown-sugar-oatmilk-shaken-espresso"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "coconut-sugar-syrup",
+      "name": "椰糖糖浆",
+      "nameEn": "Coconut Sugar Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "椰糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "小火溶解椰糖与水（椰糖溶解较慢，耐心搅拌）",
+        "加 pinch 盐，过滤去除未溶颗粒",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（1:1 椰糖）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "东南亚风拿铁、椰香特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "gula-aren-palm-sugar-syrup",
+      "name": "印尼棕榈糖浆（gula aren）",
+      "nameEn": "Gula Aren Palm Sugar Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "印尼棕榈糖块/gula aren",
+          "amount": "200 g"
+        },
+        {
+          "item": "水",
+          "amount": "200 ml"
+        },
+        {
+          "item": "班兰叶（可选）",
+          "amount": "1 片打结"
+        }
+      ],
+      "method": [
+        "棕榈糖加水（可选班兰叶）小火煮至完全融化",
+        "过滤去渣与叶，放凉",
+        "稠度偏酱可再加少许热水稀释"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（印尼咖啡店常用棕榈糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "印尼棕榈糖牛奶咖啡、马六甲椰糖拿铁参照",
+      "linkedFromRecipeIds": [
+        "kopi-susu-gula-aren",
+        "gula-melaka-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "gula-melaka-syrup",
+      "name": "马六甲椰糖浆",
+      "nameEn": "Gula Melaka Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "马六甲椰糖块",
+          "amount": "200 g"
+        },
+        {
+          "item": "水",
+          "amount": "180–200 ml"
+        },
+        {
+          "item": "班兰叶",
+          "amount": "1 片（推荐）"
+        }
+      ],
+      "method": [
+        "椰糖、水与班兰叶小火煮至融化浓稠",
+        "取出班兰，过滤",
+        "放凉装瓶；偏深琥珀甜香"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（马来椰糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "马六甲椰糖拿铁",
+      "linkedFromRecipeIds": [
+        "gula-melaka-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "espresso-coffee-syrup",
+      "name": "浓缩咖啡糖浆",
+      "nameEn": "Espresso Coffee Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~250 ml",
+      "ingredients": [
+        {
+          "item": "浓浓缩或冷萃浓缩",
+          "amount": "1 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "中火锅中混合咖啡与糖，搅拌至溶解（约 3–4 分钟）",
+        "转小火再煮约 5 分钟至略稠",
+        "离火加 pinch 盐，完全放凉后装瓶"
+      ],
+      "shelfLife": "冷藏约 3 周",
+      "source": "Barista At Home · Basic Coffee Syrup",
+      "sourceUrls": [
+        "https://myhomebarista.com/guides/coffee-syrup-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "咖啡风味加甜、浓缩马天尼甜度调节",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "cinnamon-dolce-syrup",
+      "name": "肉桂多切糖浆",
+      "nameEn": "Cinnamon Dolce Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "红糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "2–3 根"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "杏仁精（可选）",
+          "amount": "¼ tsp"
+        }
+      ],
+      "method": [
+        "糖加水煮沸溶解，加肉桂棒小火煮 8–10 分钟",
+        "离火取出肉桂棒，拌入香草精与可选杏仁精",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（仿肉桂多切甜香）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "冰肉桂多切摩卡",
+      "linkedFromRecipeIds": [
+        "iced-cinnamon-dolce-mocha-sb"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "butterscotch-syrup",
+      "name": "奶油糖/黄油糖浆",
+      "nameEn": "Butterscotch Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "红糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "无盐黄油",
+          "amount": "2 Tbsp"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "海盐",
+          "amount": "½–1 tsp"
+        }
+      ],
+      "method": [
+        "红糖加水加热溶解，拌入黄油至融化",
+        "小火煮 3–5 分钟至略稠",
+        "离火加香草与盐，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "咸奶油糖拿铁",
+      "linkedFromRecipeIds": [
+        "salted-butterscotch-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "chestnut-praline-syrup",
+      "name": "板栗糖浆",
+      "nameEn": "Chestnut Praline Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "红糖",
+          "amount": "0.25 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "板栗蓉或熟板栗泥",
+          "amount": "3–4 Tbsp"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        },
+        {
+          "item": "烤榛果碎（可选）",
+          "amount": "2 Tbsp"
+        }
+      ],
+      "method": [
+        "糖加水溶解，加入板栗蓉与可选榛果碎小火煮 8 分钟",
+        "细筛或压滤至相对顺滑",
+        "拌入香草精，放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果泥易坏）",
+      "source": "自拟标准比例（仿板栗糖风味）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "板栗糖拿铁",
+      "linkedFromRecipeIds": [
+        "chestnut-praline-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "caramel-brulee-syrup",
+      "name": "焦糖布蕾糖浆",
+      "nameEn": "Caramel Brûlée Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "1½ tsp"
+        },
+        {
+          "item": "淡奶油",
+          "amount": "2 Tbsp（可选）"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "部分糖干锅焦糖化至深琥珀，小心加水溶解",
+        "加入剩余糖煮匀，可选加奶油",
+        "离火加香草与 pinch 盐，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2 周",
+      "source": "自拟标准比例（仿焦糖布蕾）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "焦糖布蕾拿铁",
+      "linkedFromRecipeIds": [
+        "caramel-brulee-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "toasted-marshmallow-syrup",
+      "name": "烤棉花糖糖浆",
+      "nameEn": "Toasted Marshmallow Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "棉花糖",
+          "amount": "2 cups（约 100 g）"
+        },
+        {
+          "item": "水",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "烤箱或喷枪略烤棉花糖表面至焦斑（可选但更香）",
+        "锅中水+糖加热，加入棉花糖搅拌至融化",
+        "过滤去皮膜，加香草，放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "烤棉花糖拿铁",
+      "linkedFromRecipeIds": [
+        "toasted-marshmallow-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "cookie-butter-syrup",
+      "name": "饼干黄油糖浆",
+      "nameEn": "Cookie Butter / Speculoos Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "饼干黄油/speculoos 酱",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "红糖",
+          "amount": "0.25 cup"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "¼ tsp"
+        }
+      ],
+      "method": [
+        "小火混合酱、水与红糖至顺滑无颗粒",
+        "加肉桂粉再煮 1–2 分钟",
+        "放凉装瓶；偏稠可再加水"
+      ],
+      "shelfLife": "冷藏约 1–2 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "饼干黄油拿铁",
+      "linkedFromRecipeIds": [
+        "cookie-butter-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "pandan-syrup",
+      "name": "班兰糖浆",
+      "nameEn": "Pandan Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "新鲜班兰叶",
+          "amount": "8–10 片切段"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        }
+      ],
+      "method": [
+        "班兰叶与水小火煮 10–15 分钟出香（或搅拌机打汁后煮）",
+        "过滤，加入糖煮至溶解",
+        "放凉装瓶；颜色浅绿属正常"
+      ],
+      "shelfLife": "冷藏约 1–2 周",
+      "source": "自拟标准比例（东南亚班兰糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "班兰拿铁",
+      "linkedFromRecipeIds": [
+        "pandan-latte"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "strawberry-syrup",
+      "name": "草莓糖浆",
+      "nameEn": "Strawberry Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜草莓（去蒂切块）或无糖草莓泥",
+          "amount": "1.5 cups 鲜果 / 0.75 cup 泥"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入新鲜草莓（去蒂切块）或无糖草莓泥，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "草莓冰拿铁、果味冷萃",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "raspberry-syrup",
+      "name": "覆盆子糖浆",
+      "nameEn": "Raspberry Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜或冷冻覆盆子",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入新鲜或冷冻覆盆子，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "覆盆子冰美式、果味通宁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "blueberry-syrup",
+      "name": "蓝莓糖浆",
+      "nameEn": "Blueberry Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜或冷冻蓝莓",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入新鲜或冷冻蓝莓，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "蓝莓冰拿铁、冷萃",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "blackberry-syrup",
+      "name": "黑莓糖浆",
+      "nameEn": "Blackberry Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜或冷冻黑莓",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入新鲜或冷冻黑莓，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "黑莓冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "cherry-syrup",
+      "name": "樱桃糖浆",
+      "nameEn": "Cherry Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "去核樱桃（鲜/冻）",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入去核樱桃（鲜/冻），小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "樱桃摩卡、冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "peach-syrup",
+      "name": "水蜜桃糖浆",
+      "nameEn": "Peach Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "成熟水蜜桃切块或桃泥",
+          "amount": "1.5 cups / 0.75 cup 泥"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入成熟水蜜桃切块或桃泥，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "桃香冰拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "mango-syrup",
+      "name": "芒果糖浆",
+      "nameEn": "Mango Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "芒果泥（无糖）",
+          "amount": "0.75–1 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入芒果泥（无糖），小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "芒果冰咖啡、果味澳白",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "passionfruit-syrup",
+      "name": "西番莲/百香果糖浆",
+      "nameEn": "Passionfruit Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "百香果果肉（带籽可滤）",
+          "amount": "0.5–0.75 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入百香果果肉（带籽可滤），小火煮 3–5 分钟后离火浸 10 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "百香果浓缩通宁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "pineapple-syrup",
+      "name": "菠萝糖浆",
+      "nameEn": "Pineapple Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜菠萝丁",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入新鲜菠萝丁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "热带风冰咖啡",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "apple-syrup",
+      "name": "苹果糖浆",
+      "nameEn": "Apple Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "苹果丁或无糖苹果酱",
+          "amount": "1.5 cups / 0.75 cup 酱"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "1 根（可选）"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入苹果丁或无糖苹果酱，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "苹果脆燕麦玛奇朵",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "apple-crisp-oat-macchiato"
+      ],
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "pear-syrup",
+      "name": "梨糖浆",
+      "nameEn": "Pear Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "成熟梨丁",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入成熟梨丁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "梨香拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "pomegranate-syrup",
+      "name": "石榴糖浆",
+      "nameEn": "Pomegranate Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "石榴汁（纯）",
+          "amount": "0.75 cup"
+        },
+        {
+          "item": "柠檬汁",
+          "amount": "1 tsp（可选，护色）"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入石榴汁（纯），与糖水小火煮 5 分钟至略稠",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "石榴冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "watermelon-syrup",
+      "name": "西瓜糖浆",
+      "nameEn": "Watermelon Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "西瓜汁（过滤）",
+          "amount": "1 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入西瓜汁（过滤），勿久煮；糖溶后拌入西瓜汁离火",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 3–5 天",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "夏日西瓜冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "lychee-syrup",
+      "name": "荔枝糖浆",
+      "nameEn": "Lychee Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "去核荔枝果肉或荔枝汁",
+          "amount": "1 cup 果肉 / 0.75 cup 汁"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入去核荔枝果肉或荔枝汁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "荔枝浓缩苏打",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "lychee-espresso-soda"
+      ],
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "lemon-syrup",
+      "name": "柠檬糖浆",
+      "nameEn": "Lemon Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "柠檬皮屑（无白瓤）+ 柠檬汁",
+          "amount": "2 个柠檬皮屑 + 3 Tbsp 汁"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入柠檬皮屑（无白瓤）+ 柠檬汁，皮屑与糖水小火煮 5 分钟，离火加汁再浸 10 分钟后过滤",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "柠檬冰咖、Mazagran 向",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "lime-syrup",
+      "name": "青柠糖浆",
+      "nameEn": "Lime Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "青柠皮屑 + 青柠汁",
+          "amount": "2 个青柠皮屑 + 3 Tbsp 汁"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入青柠皮屑 + 青柠汁，皮屑与糖水小火煮 5 分钟，离火加汁浸 10 分钟后过滤",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "青柠冰美式、咖啡通宁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "orange-syrup",
+      "name": "香橙糖浆",
+      "nameEn": "Orange Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "甜橙皮屑（无白瓤）",
+          "amount": "2 个甜橙皮屑"
+        },
+        {
+          "item": "橙汁",
+          "amount": "2 Tbsp（可选）"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入甜橙皮屑（无白瓤），小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "香橙摩卡、冷萃橙饮",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "orange-mocha",
+        "cold-brew-orange-illy"
+      ],
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "blood-orange-syrup",
+      "name": "血橙糖浆",
+      "nameEn": "Blood Orange Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "血橙皮屑 + 血橙汁",
+          "amount": "2 个皮屑 + ¼ cup 汁"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入血橙皮屑 + 血橙汁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "血橙冰拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "yuzu-syrup",
+      "name": "柚子糖浆",
+      "nameEn": "Yuzu Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "柚子汁（或柚子醋稀释）",
+          "amount": "3–4 Tbsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入柚子汁（或柚子醋稀释），糖水溶解后离火拌入柚子汁，勿久煮",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "柚子通宁咖啡",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "grapefruit-syrup",
+      "name": "西柚糖浆",
+      "nameEn": "Grapefruit Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "西柚皮屑 + 西柚汁",
+          "amount": "1 个皮屑 + ¼ cup 汁"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入西柚皮屑 + 西柚汁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "西柚冷萃",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "grapefruit-cold-brew"
+      ],
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "cranberry-syrup",
+      "name": "蔓越莓糖浆",
+      "nameEn": "Cranberry Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "蔓越莓（鲜/冻）",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入蔓越莓（鲜/冻），小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "节日冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "apricot-syrup",
+      "name": "杏桃糖浆",
+      "nameEn": "Apricot Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "杏丁或杏干浸泡液",
+          "amount": "1.5 cups 鲜 / 0.75 cup 杏干泡软"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入杏丁或杏干浸泡液，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "杏香滤挂特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "plum-syrup",
+      "name": "李子糖浆",
+      "nameEn": "Plum Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "李子丁",
+          "amount": "1.5 cups"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入李子丁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "李子冰拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "fig-syrup",
+      "name": "无花果糖浆",
+      "nameEn": "Fig Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜无花果或无花果酱",
+          "amount": "1 cup 切块 / 0.5 cup 酱"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入新鲜无花果或无花果酱，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "无花果拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "banana-syrup",
+      "name": "香蕉糖浆",
+      "nameEn": "Banana Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "熟香蕉泥",
+          "amount": "1 根大香蕉压泥"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入熟香蕉泥，小火煮 3–5 分钟后过滤",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 3–5 天",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "香蕉拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "coconut-water-syrup",
+      "name": "椰水糖浆",
+      "nameEn": "Coconut Water Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "椰青水",
+          "amount": "1 cup（替代部分水：0.5 cup 水 + 0.5 cup 椰水）"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入椰青水，与糖小火溶解即可",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "椰香冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "guava-syrup",
+      "name": "番石榴糖浆",
+      "nameEn": "Guava Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "番石榴泥或汁",
+          "amount": "0.75 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入番石榴泥或汁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "热带果味冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "papaya-syrup",
+      "name": "木瓜糖浆",
+      "nameEn": "Papaya Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "木瓜泥",
+          "amount": "0.75 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入木瓜泥，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "木瓜冰拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "kiwi-syrup",
+      "name": "猕猴桃糖浆",
+      "nameEn": "Kiwi Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "猕猴桃泥",
+          "amount": "2–3 个压泥"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入猕猴桃泥，糖溶后拌入果泥离火浸 10 分钟过滤",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 3–5 天",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "奇异果冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "blackcurrant-syrup",
+      "name": "黑加仑糖浆",
+      "nameEn": "Blackcurrant Syrup",
+      "labelHint": "syrup-fruit",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "黑加仑（鲜/冻）或浓缩汁",
+          "amount": "1 cup 果 / ¼ cup 浓缩+水调"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入黑加仑（鲜/冻）或浓缩汁，小火煮 5–8 分钟后离火再浸 10–15 分钟",
+        "细筛过滤（保留或弃果渣按口味），放凉装瓶；用前摇匀"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含果肉易坏）",
+      "source": "自拟标准比例（鲜果/果酱 1:1 糖水浸泡）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "黑加仑冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-fruit"
+      ]
+    },
+    {
+      "id": "cinnamon-syrup",
+      "name": "肉桂糖浆",
+      "nameEn": "Cinnamon Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "3–4 根"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "肉桂冷萃、肉桂拿铁",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "cinnamon-cold-brew"
+      ],
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "ginger-syrup",
+      "name": "生姜糖浆",
+      "nameEn": "Ginger Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜姜片",
+          "amount": "¼–½ cup 薄片"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 10–15 分钟后离火再浸 15–30 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Methodical Coffee / Font Coffee 通识",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/how-to-make-coffee-syrup-at-home-easy-diy-recipes-for-delicious-coffee-drinks",
+        "https://font-mag.com/blogs/news/flavored-simple-syrups-top-10-recipes-to-try"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "姜味拿铁、热咖啡加甜",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "cardamom-syrup",
+      "name": "豆蔻糖浆",
+      "nameEn": "Cardamom Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "绿豆蔻荚（压裂）",
+          "amount": "10–12 粒"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "中东风拿铁、南印度过滤咖啡加甜",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "clove-syrup",
+      "name": "丁香糖浆",
+      "nameEn": "Clove Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "干丁香",
+          "amount": "1 tsp 整粒"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 5 分钟后离火浸 10 分钟（勿过久，易苦）",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "香料拿铁点缀",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "nutmeg-syrup",
+      "name": "肉豆蔻糖浆",
+      "nameEn": "Nutmeg Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉豆蔻粉或整粒磨碎",
+          "amount": "1–1½ tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "蛋酒拿铁向、节日特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "allspice-syrup",
+      "name": "多香果糖浆",
+      "nameEn": "Allspice Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "多香果粒（压裂）",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "加勒比风冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "star-anise-syrup",
+      "name": "八角糖浆",
+      "nameEn": "Star Anise Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "八角",
+          "amount": "3–4 粒"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "茴香向澳白",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "chai-spice-syrup",
+      "name": "印度香料茶糖浆",
+      "nameEn": "Chai Spice Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "2 根"
+        },
+        {
+          "item": "绿豆蔻荚",
+          "amount": "6 粒压裂"
+        },
+        {
+          "item": "丁香",
+          "amount": "4 粒"
+        },
+        {
+          "item": "新鲜姜片",
+          "amount": "4–5 片"
+        },
+        {
+          "item": "黑胡椒粒",
+          "amount": "¼ tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 10 分钟后离火浸 15 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "脏脏奶茶拿铁底甜",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "dirty-chai-lavender-create"
+      ],
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "five-spice-syrup",
+      "name": "五香糖浆",
+      "nameEn": "Five-Spice Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "五香粉",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 3–5 分钟后过滤",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "五香咖啡特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "black-pepper-syrup",
+      "name": "黑胡椒糖浆",
+      "nameEn": "Black Pepper Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "黑胡椒粒（压裂）",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 5 分钟后离火浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "胡椒向浓缩特调（少量）",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "chili-syrup",
+      "name": "辣椒糖浆",
+      "nameEn": "Chili Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "干红辣椒或新鲜红辣椒片",
+          "amount": "1–2 根按辣度"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 3–5 分钟后离火浸 5–10 分钟（试味防过辣）",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "墨西哥风冰咖、辣摩卡",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "smoked-chili-syrup",
+      "name": "烟熏辣椒糖浆",
+      "nameEn": "Smoked Chili Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "烟熏辣椒粉 chipotle 或干chipotle",
+          "amount": "½–1 tsp / 1 个"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "烟熏辣摩卡",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "turmeric-ginger-syrup",
+      "name": "姜黄生姜糖浆",
+      "nameEn": "Turmeric Ginger Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜姜黄片或姜黄粉",
+          "amount": "1 Tbsp 片 / 1 tsp 粉"
+        },
+        {
+          "item": "新鲜姜片",
+          "amount": "2 Tbsp"
+        },
+        {
+          "item": "黑胡椒",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "金黄拿铁向咖啡特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "pumpkin-pie-spice-syrup-dry",
+      "name": "南瓜派香料糖浆（无南瓜泥）",
+      "nameEn": "Pumpkin Pie Spice Syrup (No Purée)",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "南瓜派香料粉",
+          "amount": "2 tsp"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，香料与糖水小火煮 5 分钟，离火加香草",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "南瓜季快手拿铁（无果泥版）",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "apple-pie-spice-syrup",
+      "name": "苹果派香料糖浆",
+      "nameEn": "Apple Pie Spice Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "1½ tsp"
+        },
+        {
+          "item": "肉豆蔻",
+          "amount": "¼ tsp"
+        },
+        {
+          "item": "多香果",
+          "amount": "¼ tsp"
+        },
+        {
+          "item": "姜粉",
+          "amount": "¼ tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "苹果派风拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "speculoos-spice-syrup",
+      "name": "比利时饼干香料糖浆",
+      "nameEn": "Speculoos Spice Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "红糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "2 tsp"
+        },
+        {
+          "item": "丁香粉",
+          "amount": "¼ tsp"
+        },
+        {
+          "item": "姜粉",
+          "amount": "½ tsp"
+        },
+        {
+          "item": "白胡椒",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8–10 分钟后离火再浸 10 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "饼干黄油拿铁底香",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "black-sugar-ginger-syrup",
+      "name": "黑糖姜糖浆",
+      "nameEn": "Black Sugar Ginger Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "黑糖/深色红糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜姜片",
+          "amount": "¼ cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 10–12 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "黑糖姜拿铁、台式风冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "molasses-spice-syrup",
+      "name": "糖蜜香料糖浆",
+      "nameEn": "Molasses Spice Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "糖蜜 molasses",
+          "amount": "2 Tbsp"
+        },
+        {
+          "item": "姜粉",
+          "amount": "½ tsp"
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "½ tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，全部与糖水小火煮 5 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "深色香料拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "saffron-syrup",
+      "name": "藏红花糖浆",
+      "nameEn": "Saffron Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "藏红花丝",
+          "amount": "15–20 根"
+        },
+        {
+          "item": "豆蔻粉（可选）",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，离火浸泡 20–30 分钟（勿猛煮）",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 1–2 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "波斯风咖啡特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "cacao-nib-syrup",
+      "name": "可可碎糖浆",
+      "nameEn": "Cacao Nib Syrup",
+      "labelHint": "syrup-spice",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "可可碎 cacao nibs",
+          "amount": "¼ cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入香料，小火煮 8 分钟后离火浸 15 分钟",
+        "过滤去香料渣，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（香料 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "轻巧摩卡向、冷萃加香",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-spice"
+      ]
+    },
+    {
+      "id": "lavender-syrup",
+      "name": "薰衣草糖浆",
+      "nameEn": "Lavender Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干薰衣草",
+          "amount": "2 Tbsp",
+          "note": "必须食用级；装饰薰衣草勿用"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入薰衣草，小火轻煮后离火浸泡 5–8 分钟（勿过久，易皂感），立即过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Barista At Home / Methodical Coffee",
+      "sourceUrls": [
+        "https://myhomebarista.com/guides/coffee-syrup-recipes/",
+        "https://methodicalcoffee.com/blogs/coffee-culture/how-to-make-coffee-syrup-at-home-easy-diy-recipes-for-delicious-coffee-drinks"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "薰衣草拿铁、薰衣草浓缩通宁、冰香草薰衣草咖啡",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "lavender-latte-starbucks",
+        "iced-vanilla-lavender-oatfoam-sb",
+        "lavender-espresso-tonic",
+        "dirty-chai-lavender-create"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "honey-lavender-syrup",
+      "name": "蜂蜜薰衣草糖浆",
+      "nameEn": "Honey Lavender Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干薰衣草",
+          "amount": "1½–2 Tbsp"
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "2–3 Tbsp",
+          "note": "过滤后加入"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水溶后加薰衣草离火浸 5–8 分钟过滤；再拌入蜂蜜至甜度合适",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "蜂蜜薰衣草冷奶盖、脏脏奶茶",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "honey-lavender-cold-foam",
+        "dirty-chai-lavender-create"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "rose-syrup",
+      "name": "玫瑰糖浆",
+      "nameEn": "Rose Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干玫瑰花瓣",
+          "amount": "¼ cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加入花瓣小火煮至糖溶后离火浸泡 15 分钟，过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "The Fabled Alchemist / 通识",
+      "sourceUrls": [
+        "https://thefabledalchemist.com/recipes/botanical-simple-syrups/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "班东玫瑰咖啡、玫瑰拿铁",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "bandung-coffee"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "elderflower-syrup",
+      "name": "接骨木花糖浆",
+      "nameEn": "Elderflower Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "干接骨木花（或新鲜去绿茎）",
+          "amount": "3 Tbsp 干 / 按包装"
+        },
+        {
+          "item": "柠檬片",
+          "amount": "数片（可选）"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水溶后加花与可选柠檬片，离火浸泡 30–60 分钟（或冷藏过夜）后过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "The Fabled Alchemist 通识",
+      "sourceUrls": [
+        "https://thefabledalchemist.com/recipes/botanical-simple-syrups/"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "接骨木花浓缩通宁",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "elderflower-espresso-tonic"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "mint-syrup",
+      "name": "薄荷糖浆",
+      "nameEn": "Mint Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜薄荷叶",
+          "amount": "0.5–0.75 cup 轻压"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加薄荷小火轻煮后离火浸泡 20–30 分钟，过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Methodical Coffee / The Fabled Alchemist",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/how-to-make-coffee-syrup-at-home-easy-diy-recipes-for-delicious-coffee-drinks"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "薄荷摩卡",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "peppermint-mocha-cnbc"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "peppermint-syrup",
+      "name": "胡椒薄荷糖浆",
+      "nameEn": "Peppermint Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "胡椒薄荷精或干胡椒薄荷",
+          "amount": "1–1½ tsp 精 / 2 Tbsp 干"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水放凉后拌入薄荷精；若用干叶则离火浸 15 分钟过滤再加精补香",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "薄荷摩卡、节日热巧咖",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "peppermint-mocha-cnbc"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "basil-syrup",
+      "name": "罗勒糖浆",
+      "nameEn": "Basil Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜罗勒叶",
+          "amount": "0.5 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加罗勒离火浸泡 15–20 分钟后过滤（可先轻捣叶面）",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "西柚罗勒向、草本冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "rosemary-syrup",
+      "name": "迷迭香糖浆",
+      "nameEn": "Rosemary Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜迷迭香",
+          "amount": "2–3 小枝"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加迷迭香小火煮 1–2 分钟后离火浸泡 30–60 分钟，过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "Font Coffee / Marie Bostwick 通识",
+      "sourceUrls": [
+        "https://font-mag.com/blogs/news/flavored-simple-syrups-top-10-recipes-to-try"
+      ],
+      "credibility": "网络食谱",
+      "usesInCoffee": "迷迭香蜂蜜澳白",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "jasmine-syrup",
+      "name": "茉莉糖浆",
+      "nameEn": "Jasmine Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干茉莉花",
+          "amount": "3 Tbsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水溶后离火加花浸泡 15–20 分钟过滤（勿过久发苦）",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "茉莉冰拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "hibiscus-syrup",
+      "name": "洛神花/玫瑰茄糖浆",
+      "nameEn": "Hibiscus Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "干洛神花",
+          "amount": "¼ cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加洛神花小火煮 5–8 分钟后离火浸 10 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "洛神冰美式、酸感特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "chamomile-syrup",
+      "name": "洋甘菊糖浆",
+      "nameEn": "Chamomile Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "干洋甘菊",
+          "amount": "3 Tbsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "离火浸泡 15–20 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "洋甘菊拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "earl-grey-syrup",
+      "name": "伯爵茶糖浆",
+      "nameEn": "Earl Grey Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "伯爵红茶包或茶叶",
+          "amount": "2 包 / 2 Tbsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水煮开离火投入茶叶浸泡 5–8 分钟（勿过久涩）后取出",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "伯爵拿铁、伦敦雾向脏脏",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "bergamot-syrup",
+      "name": "佛手柑糖浆",
+      "nameEn": "Bergamot Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "佛手柑精油（食用）或皮屑",
+          "amount": "2–3 滴精油 / 1 个皮屑"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水放凉后滴入精油搅匀；或皮屑小火煮 5 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "伯爵向咖啡特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "orange-blossom-syrup",
+      "name": "橙花糖浆",
+      "nameEn": "Orange Blossom Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "橙花水 orange blossom water",
+          "amount": "1–2 tsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "1:1 糖水完全放凉后拌入橙花水（加热易散香）",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "橙花澳白、中东风咖啡",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "violet-syrup",
+      "name": "紫罗兰糖浆",
+      "nameEn": "Violet Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干紫罗兰或紫罗兰糖浆基底香精",
+          "amount": "3 Tbsp 干 / 按精标签"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "干花离火浸 20–30 分钟过滤；或糖水放凉加食用香精",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "花香冰美式",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "lemongrass-syrup",
+      "name": "香茅糖浆",
+      "nameEn": "Lemongrass Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜香茅（拍裂切段）",
+          "amount": "2–3 根"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "小火煮 10 分钟后离火浸 15 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "东南亚风冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "thai-basil-syrup",
+      "name": "泰式罗勒糖浆",
+      "nameEn": "Thai Basil Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "泰式罗勒叶",
+          "amount": "0.5 cup"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "离火浸泡 15–20 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "泰式冰咖啡向草本甜",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "cilantro-lime-syrup",
+      "name": "香菜青柠糖浆",
+      "nameEn": "Cilantro Lime Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜香菜叶",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "青柠汁",
+          "amount": "2 Tbsp"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "糖水溶后加香菜离火浸 10–15 分钟过滤，再拌入青柠汁 2 Tbsp",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 5–7 天",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "墨西哥风冰咖（少量）",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "sage-syrup",
+      "name": "鼠尾草糖浆",
+      "nameEn": "Sage Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜鼠尾草叶",
+          "amount": "8–10 片"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "小火煮 2 分钟后离火浸 20 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "草本澳白",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "thyme-syrup",
+      "name": "百里香糖浆",
+      "nameEn": "Thyme Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "新鲜百里香",
+          "amount": "4–5 小枝"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "小火煮 2 分钟后离火浸 20–30 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "百里香柠檬冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "lavender-vanilla-syrup",
+      "name": "薰衣草香草糖浆",
+      "nameEn": "Lavender Vanilla Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干薰衣草",
+          "amount": "1½ Tbsp"
+        },
+        {
+          "item": "香草精或香草荚",
+          "amount": "1 tsp / ½ 根"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加薰衣草与香草荚/精：小火后离火浸 5–8 分钟过滤；精则过滤后加入",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "冰香草薰衣草咖啡",
+      "batch": "SYRUP-001",
+      "linkedFromRecipeIds": [
+        "iced-vanilla-lavender-oatfoam-sb"
+      ],
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "rose-cardamom-syrup",
+      "name": "玫瑰豆蔻糖浆",
+      "nameEn": "Rose Cardamom Syrup",
+      "labelHint": "syrup-floral",
+      "yield": "~300–350 ml",
+      "ingredients": [
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "食用级干玫瑰花瓣",
+          "amount": "3 Tbsp"
+        },
+        {
+          "item": "绿豆蔻荚",
+          "amount": "4–5 粒压裂"
+        }
+      ],
+      "method": [
+        "锅中混合糖与水加热至溶解",
+        "加玫瑰与压裂豆蔻小火后离火浸 15 分钟过滤",
+        "细筛过滤，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例（花草 1:1 糖水）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "玫瑰豆蔻拿铁、班东变奏",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-floral"
+      ]
+    },
+    {
+      "id": "demerara-syrup",
+      "name": "原蔗糖糖浆",
+      "nameEn": "Demerara Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "原蔗糖 Demerara",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        }
+      ],
+      "method": [
+        "小火溶解原蔗糖与水",
+        "过滤去除未溶粗粒",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 3–4 周",
+      "source": "自拟标准比例（1:1 原蔗糖）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "深甜冰美式、老式甜感特调",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "turbinado-syrup",
+      "name": "涡轮糖/原糖糖浆",
+      "nameEn": "Turbinado Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "涡轮糖 Turbinado",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        }
+      ],
+      "method": [
+        "小火溶解至清亮",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 3–4 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "冰摇浓缩底甜",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "muscovado-syrup",
+      "name": "黑蔗糖糖浆",
+      "nameEn": "Muscovado Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "黑蔗糖 Muscovado",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "小火耐心溶解（颗粒较黏）",
+        "加 pinch 盐，过滤",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "深焙拿铁加甜",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "agave-syrup-coffee",
+      "name": "龙舌兰糖浆（咖啡用稀释）",
+      "nameEn": "Agave Coffee Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "龙舌兰糖浆",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "0.5 cup"
+        }
+      ],
+      "method": [
+        "小火混合至均匀（勿沸腾过久）",
+        "放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 3–4 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "低黏度甜感冰咖",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "date-syrup-coffee",
+      "name": "椰枣糖浆",
+      "nameEn": "Date Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "无核椰枣",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1.5 cups"
+        },
+        {
+          "item": "柠檬汁",
+          "amount": "1 tsp（可选）"
+        }
+      ],
+      "method": [
+        "椰枣加水小火煮 15–20 分钟至软烂",
+        "搅拌机打顺或压滤取汁",
+        "小火略收稠，可选加柠檬汁，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 1–2 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "中东风拿铁、深甜冷萃",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "orgeat-almond-syrup",
+      "name": "杏仁糖浆（Orgeat 简化）",
+      "nameEn": "Orgeat-Style Almond Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~350 ml",
+      "ingredients": [
+        {
+          "item": "漂白杏仁或杏仁粉",
+          "amount": "1 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "橙花水或玫瑰水",
+          "amount": "½–1 tsp"
+        },
+        {
+          "item": "杏仁精",
+          "amount": "¼ tsp"
+        }
+      ],
+      "method": [
+        "杏仁与水小火加热后浸泡 30 分钟，搅拌打碎或压滤取乳",
+        "加入糖加热溶解",
+        "放凉后加橙花水与杏仁精，装瓶（用前摇匀，易分层）"
+      ],
+      "shelfLife": "冷藏约 1–2 周（含坚果乳易坏）",
+      "source": "自拟标准比例（简化 orgeat）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "莱切冰咖、杏仁澳白",
+      "linkedFromRecipeIds": [
+        "caffe-leccese-lavazza"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "macadamia-syrup",
+      "name": "夏威夷果糖浆",
+      "nameEn": "Macadamia Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "烤夏威夷果碎",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "0.5 tsp"
+        }
+      ],
+      "method": [
+        "糖水溶解后加果仁小火煮 8–10 分钟",
+        "过滤，加香草，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "坚果拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "pecan-syrup",
+      "name": "山核桃糖浆",
+      "nameEn": "Pecan Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "烤山核桃碎",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "红糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "香草精",
+          "amount": "1 tsp"
+        }
+      ],
+      "method": [
+        "糖水溶解加果仁煮 8–10 分钟",
+        "过滤加香草，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "山核桃派风拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "walnut-syrup",
+      "name": "核桃糖浆",
+      "nameEn": "Walnut Syrup",
+      "labelHint": "syrup-base",
+      "yield": "~300 ml",
+      "ingredients": [
+        {
+          "item": "烤核桃碎",
+          "amount": "0.5 cup"
+        },
+        {
+          "item": "白砂糖",
+          "amount": "1 cup"
+        },
+        {
+          "item": "水",
+          "amount": "1 cup"
+        },
+        {
+          "item": "枫糖浆（可选）",
+          "amount": "1 Tbsp"
+        }
+      ],
+      "method": [
+        "糖水加核桃煮 8–10 分钟过滤",
+        "可选加枫糖补香，放凉装瓶"
+      ],
+      "shelfLife": "冷藏约 2–3 周",
+      "source": "自拟标准比例",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "核桃拿铁",
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    },
+    {
+      "id": "dark-chocolate-sauce",
+      "name": "黑巧克力酱",
+      "nameEn": "Dark Chocolate Sauce",
+      "labelHint": "syrup-base",
+      "yield": "~250 ml",
+      "ingredients": [
+        {
+          "item": "70% 黑巧克力",
+          "amount": "150 g"
+        },
+        {
+          "item": "淡奶油或全脂奶",
+          "amount": "120 ml"
+        },
+        {
+          "item": "糖",
+          "amount": "1–2 Tbsp 按苦度"
+        },
+        {
+          "item": "盐",
+          "amount": "少许 pinch"
+        }
+      ],
+      "method": [
+        "加热奶油/奶至冒热气",
+        "倒入切碎黑巧搅拌至顺滑，加糖与盐",
+        "温用或冷藏回温；咸焦糖摩卡可用此作黑巧酱"
+      ],
+      "shelfLife": "冷藏约 5–7 天",
+      "source": "自拟标准比例（甘纳许式）",
+      "sourceUrls": [],
+      "credibility": "自拟标准比例",
+      "usesInCoffee": "咸焦糖摩卡黑巧层、摩卡",
+      "linkedFromRecipeIds": [
+        "salted-caramel-mocha-starbucks",
+        "caffe-mocha-starbucks"
+      ],
+      "batch": "SYRUP-001",
+      "labelIds": [
+        "syrup-base"
+      ]
+    }
+  ]
+}

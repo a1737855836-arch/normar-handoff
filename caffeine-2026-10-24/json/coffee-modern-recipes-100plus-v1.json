@@ -1,0 +1,5659 @@
+{
+  "task": "COFFEE-008",
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "criteriaNote": "阿拿要求现代特调≥100；每款须有材料+做法；网络配方可收。004官方主表+006扩充+008新增合并。无材料或无做法不进表。",
+  "total": 127,
+  "countsByBatch": {
+    "004": 12,
+    "006": 20,
+    "008": 95
+  },
+  "recipes": [
+    {
+      "id": "dirty-bear-pond",
+      "name": "脏脏咖啡",
+      "nameEn": "Dirty Coffee",
+      "ingredients": [
+        {
+          "item": "全脂冷牛奶",
+          "amount": "约半罐至近满（定性）",
+          "note": "发明者：脂肪≥3.6%"
+        },
+        {
+          "item": "浓稠 espresso（第一环）",
+          "amount": "1 份",
+          "note": "极细研磨、重压粉"
+        },
+        {
+          "item": "浓稠 espresso（第二环）",
+          "amount": "1 份",
+          "note": "无冰"
+        }
+      ],
+      "method": [
+        "透明 mason jar 倒约半杯冰牛奶",
+        "抽出浓稠 espresso 形成第一环",
+        "再倒牛奶近满",
+        "再抽一샷形成第二环",
+        "先喝不搅拌"
+      ],
+      "glass": "约 8 oz Ball Regular Mouth Mason jar",
+      "beanNote": "Bear Pond Flower Child 拼配；出处未指定单一品种产地明细",
+      "source": "Bear Pond Espresso 店方官方 + Katsuyuki Tanaka 发明者访谈（Barista Magazine）",
+      "sourceUrls": [
+        "https://bearpondespresso.com/",
+        "https://www.baristamagazine.com/understanding-the-dirty-a-chat-with-katsuyuki-tanaka/"
+      ],
+      "credibility": "店方官方+发明者访谈",
+      "labelHint": "modern-milk-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "affogato-lavazza",
+      "name": "阿芙佳朵",
+      "nameEn": "Affogato",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "双份",
+          "note": "Lavazza 推荐 Barista Gran Crema 或 Super Crema"
+        },
+        {
+          "item": "香草冰淇淋",
+          "amount": "两勺",
+          "note": ""
+        },
+        {
+          "item": "巧克力糖浆",
+          "amount": "2 Tbsp",
+          "note": "可选"
+        }
+      ],
+      "method": [
+        "杯壁可抹巧克力糖浆",
+        "入两勺冰淇淋",
+        "倒双份现萃 espresso"
+      ],
+      "glass": "Martini glass",
+      "beanNote": "Lavazza 指定拼配产品线；未写品种产地",
+      "source": "Lavazza 品牌官方",
+      "sourceUrls": [
+        "https://www.lavazzausa.com/en/recipes-and-coffee-hacks/affogato-recipe"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "coffee-tonic-koppi",
+      "name": "咖啡通宁",
+      "nameEn": "Coffee Tonic (Espresso Tonic)",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "约 40 ml（双份）",
+          "note": ""
+        },
+        {
+          "item": "汤力水",
+          "amount": "150–200 ml",
+          "note": "冰镇"
+        },
+        {
+          "item": "冰块",
+          "amount": "填满杯",
+          "note": ""
+        },
+        {
+          "item": "糖浆",
+          "amount": "少许",
+          "note": "可选"
+        },
+        {
+          "item": "柑橘片",
+          "amount": "橙/血橙/柠檬",
+          "note": "可选"
+        }
+      ],
+      "method": [
+        "杯沿填满冰",
+        "倒入汤力与可选糖浆",
+        "espresso 经勺背缓注入分层",
+        "加柑橘即上；喝前再搅"
+      ],
+      "glass": "Tumbler",
+      "beanNote": "建议浅焙果酸豆；出处举例埃塞/哥伦比亚 Pink Bourbon 等，未锁定单一批次",
+      "source": "Koppi Roasters 品牌/发明方官方",
+      "sourceUrls": [
+        "https://koppi.se/blogs/learn/coffee-tonic"
+      ],
+      "credibility": "品牌官方（发明方）",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "shakerato-lavazza",
+      "name": "手摇冰咖",
+      "nameEn": "Caffè Shakerato",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "双份（可 ristretto）",
+          "note": ""
+        },
+        {
+          "item": "液体糖或砂糖",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "冰块",
+          "amount": "约半 shaker",
+          "note": ""
+        }
+      ],
+      "method": [
+        "预冷杯与 shaker",
+        "顺序：冰 → 糖 → 热 espresso",
+        "猛摇 15–20 秒",
+        "滤冰入杯"
+      ],
+      "glass": "预冷鸡尾酒杯/coupe",
+      "beanNote": "未写豆；建议深烘饱满拼配抗稀释",
+      "source": "Lavazza 品牌官方",
+      "sourceUrls": [
+        "https://www.lavazza.it/it/i-segreti-del-caffe/caffe-shakerato-ricetta"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "caffe-leccese-lavazza",
+      "name": "莱切冰咖",
+      "nameEn": "Caffè Leccese",
+      "ingredients": [
+        {
+          "item": "long espresso 或摩卡咖啡",
+          "amount": "约 0.70 fl oz",
+          "note": ""
+        },
+        {
+          "item": "杏仁糖浆",
+          "amount": "0.350 oz",
+          "note": ""
+        },
+        {
+          "item": "冰块",
+          "amount": "2–3 块",
+          "note": ""
+        }
+      ],
+      "method": [
+        "糖浆与冰入杯",
+        "现萃热咖啡倒入",
+        "搅匀即饮"
+      ],
+      "glass": "玻璃杯",
+      "beanNote": "未写豆",
+      "source": "Lavazza 品牌官方",
+      "sourceUrls": [
+        "https://www.lavazzausa.com/en/recipes-and-coffee-hacks/how-to-make-caffe-leccese"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "espresso-con-panna-starbucks",
+      "name": "浓缩配奶油",
+      "nameEn": "Espresso Con Panna",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "whipped cream",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "无糖焦糖酱",
+          "amount": "1 Tbsp",
+          "note": "可选"
+        }
+      ],
+      "method": [
+        "萃两份 espresso 入杯",
+        "顶部加搅打奶油",
+        "可选焦糖"
+      ],
+      "glass": "",
+      "beanNote": "未写豆；推荐 Starbucks by Nespresso 风味胶囊",
+      "source": "Starbucks at Home 品牌官方",
+      "sourceUrls": [
+        "https://www.starbucksathome.com/gb/recipes/starbucks-espresso-con-panna"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cold-brew-salted-honey-foam-starbucks",
+      "name": "咸蜜冷萃奶盖",
+      "nameEn": "Cold Brew with Salted Honey Cold Foam",
+      "ingredients": [
+        {
+          "item": "Cold Brew Concentrate",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "水",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "脱脂奶或自选奶",
+          "amount": "0.25 cup",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜糖浆",
+          "amount": "1.5 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "盐",
+          "amount": "pinch",
+          "note": ""
+        }
+      ],
+      "method": [
+        "蜂蜜1 cup + 水1 cup 煮成糖浆并冷却",
+        "奶+蜂蜜糖浆+盐冷打约2分钟",
+        "冷萃兑水加冰后淋奶盖"
+      ],
+      "glass": "",
+      "beanNote": "指定 Starbucks Cold Brew Concentrate；未写绿豆品种",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/cold-brew-salted-honey-foam"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-coconutmilk-latte-starbucks",
+      "name": "冰椰奶拿铁",
+      "nameEn": "Iced Coconutmilk Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1 capsule 或约 1 oz",
+          "note": ""
+        },
+        {
+          "item": "coconutmilk",
+          "amount": "0.75 cup",
+          "note": ""
+        },
+        {
+          "item": "ice",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "冰入杯",
+        "倒椰奶",
+        "加入现萃 espresso"
+      ],
+      "glass": "",
+      "beanNote": "Starbucks Espresso Roast；未写产地品种",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-coconutmilk-latte"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "espresso-tonic-nespresso",
+      "name": "浓缩通宁（Nespresso）",
+      "nameEn": "Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "tonic water",
+          "amount": "90 ml",
+          "note": ""
+        },
+        {
+          "item": "coffee",
+          "amount": "40 ml 或 80 ml",
+          "note": ""
+        },
+        {
+          "item": "ice",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "葡萄柚或青柠",
+          "amount": "汁少许+片饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "满冰",
+        "倒汤力",
+        "上方萃入咖啡",
+        "挤柑橘汁并装饰"
+      ],
+      "glass": "冰饮杯",
+      "beanNote": "未写豆",
+      "source": "Nespresso 品牌官方",
+      "sourceUrls": [
+        "https://www.nespresso.com/pl/en/przepisy/espresso-tonic"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "nitro-cold-brew-starbucks",
+      "name": "氮气冷萃",
+      "nameEn": "Nitro Cold Brew",
+      "ingredients": [
+        {
+          "item": "Cold Brew",
+          "amount": "慢萃约 20h（店内）",
+          "note": "家用精确配比未公布"
+        },
+        {
+          "item": "氮气",
+          "amount": "龙头注入",
+          "note": "出处仅定性"
+        }
+      ],
+      "method": [
+        "冷萃经氮气龙头倒出，形成微泡与奶盖状泡沫"
+      ],
+      "glass": "",
+      "beanNote": "未写豆",
+      "source": "Starbucks 品牌官方产品页",
+      "sourceUrls": [
+        "https://www.starbucks.com/coffee/nitro/"
+      ],
+      "credibility": "品牌官方（产品说明）",
+      "labelHint": "modern-milk-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "espresso-freddo-illy",
+      "name": "冰浓缩",
+      "nameEn": "Espresso Freddo",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 份",
+          "note": ""
+        },
+        {
+          "item": "矿泉水",
+          "amount": "10 ml",
+          "note": ""
+        },
+        {
+          "item": "液体糖",
+          "amount": "10 ml",
+          "note": "可按喜好"
+        },
+        {
+          "item": "冰块",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "mixing glass 内冰+糖+水+espresso",
+        "spoon 搅",
+        "strainer 滤冰出品"
+      ],
+      "glass": "服务杯",
+      "beanNote": "illy 100% Arabica；未写单一品种",
+      "source": "illy 品牌杂志",
+      "sourceUrls": [
+        "https://illyworld.illy.com/it-it/magazine/caffe-destate"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "cold-brew-orange-illy",
+      "name": "冷萃橙饮",
+      "nameEn": "Cold Brew Orange",
+      "ingredients": [
+        {
+          "item": "illy Cold Brew RTD Classico",
+          "amount": "210 ml",
+          "note": ""
+        },
+        {
+          "item": "橙汁",
+          "amount": "30 ml",
+          "note": ""
+        },
+        {
+          "item": "液体糖",
+          "amount": "10 ml",
+          "note": ""
+        },
+        {
+          "item": "冰块",
+          "amount": "约 ¾ 杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯填冰 ¾",
+        "倒糖浆、橙汁、冷萃至满"
+      ],
+      "glass": "玻璃杯",
+      "beanNote": "指定 illy Cold Brew RTD；绿豆细节未写",
+      "source": "illy 品牌杂志",
+      "sourceUrls": [
+        "https://illyworld.illy.com/it-it/magazine/caffe-destate"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "004",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "brown-sugar-oatmilk-shaken-espresso",
+      "name": "冰棕糖燕麦奶摇摇浓缩",
+      "nameEn": "Iced Brown Sugar Oatmilk Shaken Espresso",
+      "ingredients": [
+        {
+          "item": "espresso（Starbucks Veranda Blend 或 Blonde 线）",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "浅棕糖 light brown sugar",
+          "amount": "2 tsp",
+          "note": ""
+        },
+        {
+          "item": "无糖燕麦奶 unsweetened oatmilk",
+          "amount": "6 oz / ¾ cup",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1.5 cups",
+          "note": ""
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "少许 dash",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 2 份 espresso，趁热搅入棕糖至溶解",
+        "shaker 或 mason jar 内加 espresso、燕麦奶与冰，摇约 20 秒",
+        "倒入高杯，顶部撒少许肉桂"
+      ],
+      "glass": "高杯 / tall glass；可用 cocktail shaker 或 mason jar",
+      "beanNote": "Starbucks Veranda Blend / Blonde Espresso Roast 产品线；未写绿豆品种产地",
+      "source": "Starbucks Coffee At Home 品牌官方配方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-brown-sugar-oatmilk-shaken-espresso",
+        "https://www.starbucks.com/menu/product/2123431/iced"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "spanish-latte-cafe-con-leche",
+      "name": "西班牙拿铁 / 咖啡加奶",
+      "nameEn": "Spanish Latte (Café con Leche)",
+      "ingredients": [
+        {
+          "item": "浓 espresso",
+          "amount": "100 ml",
+          "note": ""
+        },
+        {
+          "item": "全脂牛奶（可用 UHT）",
+          "amount": "100 ml",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "牛奶与糖（如用）小锅加热至边缘起小泡，约 65–70°C，轻搅",
+        "杯中倒入 espresso，再倒入热奶"
+      ],
+      "glass": "中杯 / medium cup",
+      "beanNote": "未写豆；建议新鲜研磨浓咖啡",
+      "source": "BBC Good Food 媒体食谱",
+      "sourceUrls": [
+        "https://www.bbcgoodfood.com/recipes/spanish-latte-cafe-con-leche"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "yuzu-tonic-coffee-breville",
+      "name": "柚子通宁咖啡",
+      "nameEn": "Yuzu and Tonic Coffee Hit",
+      "ingredients": [
+        {
+          "item": "柚子泥 / yuzu puree",
+          "amount": "1½ fl oz",
+          "note": ""
+        },
+        {
+          "item": "水",
+          "amount": "1½ fl oz",
+          "note": ""
+        },
+        {
+          "item": "汤力水 tonic water",
+          "amount": "5 fl oz",
+          "note": ""
+        },
+        {
+          "item": "双份 espresso（冰镇）",
+          "amount": "1 double",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "迷迭香",
+          "amount": "1 枝装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "柚子泥与水混入高杯",
+        "加满冰 → 倒汤力 → 倒入冰镇双份 espresso",
+        "迷迭香装饰"
+      ],
+      "glass": "高杯 / tall serving glass",
+      "beanNote": "未写豆",
+      "source": "Breville 品牌/设备官方配方库",
+      "sourceUrls": [
+        "https://www.breville.com/inspiration/en-us/recipes/coffee-espresso/yuzu-and-tonic-coffee-hit"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "irish-coffee-iba",
+      "name": "爱尔兰咖啡",
+      "nameEn": "Irish Coffee",
+      "ingredients": [
+        {
+          "item": "爱尔兰威士忌 Irish whiskey",
+          "amount": "50 ml",
+          "note": ""
+        },
+        {
+          "item": "热黑咖啡",
+          "amount": "120 ml",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油（冰镇）",
+          "amount": "50 ml",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "1 tsp（可用糖浆替代）",
+          "note": ""
+        }
+      ],
+      "method": [
+        "预热杯，倒入热黑咖啡",
+        "加威士忌与糖，搅至溶解",
+        "厚冰鲜奶油经勺背浮层，勿搅"
+      ],
+      "glass": "预热 Irish coffee glass",
+      "beanNote": "未写豆",
+      "source": "IBA（International Bartenders Association）官方鸡尾酒标准",
+      "sourceUrls": [
+        "https://iba-world.com/iba-cocktail/irish-coffee/"
+      ],
+      "credibility": "官方（赛事/协会标准）",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "espresso-martini-iba",
+      "name": "浓缩马天尼",
+      "nameEn": "Espresso Martini",
+      "ingredients": [
+        {
+          "item": "伏特加 vodka",
+          "amount": "50 ml",
+          "note": ""
+        },
+        {
+          "item": "Kahlúa（或咖啡利口酒）",
+          "amount": "30 ml",
+          "note": ""
+        },
+        {
+          "item": "糖浆 sugar syrup",
+          "amount": "10 ml",
+          "note": ""
+        },
+        {
+          "item": "浓 espresso",
+          "amount": "1 strong espresso",
+          "note": ""
+        }
+      ],
+      "method": [
+        "全部材料入 shaker，加冰猛摇",
+        "滤入预冷杯",
+        "3 颗咖啡豆装饰"
+      ],
+      "glass": "预冷鸡尾酒杯 / chilled cocktail glass",
+      "beanNote": "未写豆；要求 strong espresso",
+      "source": "IBA 官方鸡尾酒标准",
+      "sourceUrls": [
+        "https://iba-world.com/iba-cocktail/espresso-martini/"
+      ],
+      "credibility": "官方（赛事/协会标准）",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "cascara-fizz-metric",
+      "name": "咖啡果皮汽泡",
+      "nameEn": "Cascara Fizz (Metric Coffee)",
+      "ingredients": [
+        {
+          "item": "已泡 cascara 茶",
+          "amount": "3 oz",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆 vanilla syrup",
+          "amount": "1 oz",
+          "note": ""
+        },
+        {
+          "item": "气泡矿泉水（店用 Topo Chico lime 或原味）",
+          "amount": "顶满",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "青柠",
+          "amount": "可选挤汁/角装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "冷 cascada 茶 + 香草糖浆入杯加冰，搅匀",
+        "顶入气泡矿泉水",
+        "可选挤青柠"
+      ],
+      "glass": "郁金香杯 / tulip",
+      "beanNote": "cascara 果皮茶底：干 cascara 3 oz + 冷过滤水 1 cup，室温浸 24h 后滤；未写咖啡豆",
+      "source": "Metric Coffee（芝加哥）店方配方，经 Imbibe Magazine 刊载",
+      "sourceUrls": [
+        "https://imbibemagazine.com/recipe/metric-coffees-cascara-fizz/"
+      ],
+      "credibility": "媒体（店方配方转载）",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "lavender-latte-starbucks",
+      "name": "薰衣草拿铁",
+      "nameEn": "Lavender Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "牛奶（自选）",
+          "amount": "250 ml",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "1 tsp",
+          "note": ""
+        },
+        {
+          "item": "薰衣草糖浆 lavender syrup",
+          "amount": "2 tsp",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油与装饰",
+          "amount": "可选 topping",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 2 份 espresso，与蜂蜜混匀",
+        "牛奶中加薰衣草糖浆并打发",
+        "奶沫倒入 espresso；可选奶油与撒料"
+      ],
+      "glass": "拿铁杯",
+      "beanNote": "页推荐 Starbucks Blonde Espresso；未写绿豆品种",
+      "source": "Starbucks® at Home（GB）品牌官方配方",
+      "sourceUrls": [
+        "https://www.starbucksathome.com/gb/recipes/lavender-latte"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "pumpkin-spice-latte-starbucks",
+      "name": "南瓜香料拿铁",
+      "nameEn": "Pumpkin Spice Latte",
+      "ingredients": [
+        {
+          "item": "Starbucks Espresso Roast（胶囊或豆萃）",
+          "amount": "1 capsule / 1 份",
+          "note": ""
+        },
+        {
+          "item": "全脂奶",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "自制南瓜香料糖浆",
+          "amount": "3 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "0.5 cup",
+          "note": ""
+        },
+        {
+          "item": "南瓜派香料粉",
+          "amount": "1 pinch 装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "打发热奶",
+        "杯中放 3 Tbsp 南瓜糖浆 + 热 espresso，搅匀",
+        "倒入打发奶至约 ¾，顶奶油，撒 pumpkin pie spice"
+      ],
+      "glass": "马克杯",
+      "beanNote": "指定 Espresso Roast 产品线；未写绿豆品种",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/pumpkin-spice-latte"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "salted-caramel-mocha-starbucks",
+      "name": "咸焦糖摩卡",
+      "nameEn": "Salted Caramel Mocha",
+      "ingredients": [
+        {
+          "item": "toffee nut syrup 太妃坚果糖浆",
+          "amount": "1.5 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "黑巧克力酱",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "espresso（Espresso Roast）",
+          "amount": "1 shot",
+          "note": ""
+        },
+        {
+          "item": "2% 牛奶",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "适量 topping",
+          "note": ""
+        },
+        {
+          "item": "焦糖酱 + 烟熏海盐糖撒料",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯底放太妃坚果糖浆与黑巧克力酱",
+        "萃 1 份 espresso 入杯",
+        "打发 2% 奶倒入，顶奶油，淋焦糖并撒烟熏海盐糖"
+      ],
+      "glass": "马克杯",
+      "beanNote": "Starbucks Espresso Roast；未写绿豆品种",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/salted-caramel-mocha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "honey-almondmilk-flat-white",
+      "name": "蜂蜜杏仁奶澳白",
+      "nameEn": "Honey Almondmilk Flat White",
+      "ingredients": [
+        {
+          "item": "espresso（Espresso Roast）",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "无糖杏仁奶",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜糖浆 honey syrup",
+          "amount": "1 oz",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 2 份 espresso 入杯，搅入蜂蜜糖浆",
+        "打发杏仁奶，缓倒入至近满并做中心点"
+      ],
+      "glass": "澳白杯 / mug",
+      "beanNote": "Starbucks Espresso Roast；未写绿豆品种",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/honey-almondmilk-flat-white"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "dirty-matcha-breville",
+      "name": "脏脏抹茶",
+      "nameEn": "Dirty Matcha",
+      "ingredients": [
+        {
+          "item": "抹茶粉",
+          "amount": "1 tsp",
+          "note": ""
+        },
+        {
+          "item": "沸水",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "2 tsp",
+          "note": ""
+        },
+        {
+          "item": "双份 espresso",
+          "amount": "1 double",
+          "note": ""
+        },
+        {
+          "item": "全脂奶（蒸汽打发）",
+          "amount": "适量 topping",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中抹茶粉+沸水化开，加香草糖浆",
+        "直接在杯上萃入双份 espresso",
+        "顶入蒸汽打发牛奶"
+      ],
+      "glass": "咖啡杯",
+      "beanNote": "未写豆",
+      "source": "Breville 品牌官方配方库",
+      "sourceUrls": [
+        "https://www.breville.com/inspiration/en-us/recipes/coffee-espresso/dirty-matcha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "dalgona-coffee-bbc",
+      "name": "达戈纳咖啡 / 手打咖啡",
+      "nameEn": "Dalgona Coffee",
+      "ingredients": [
+        {
+          "item": "速溶咖啡或 espresso powder",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "很烫的热水",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "牛奶",
+          "amount": "400 ml（约 2 人份）",
+          "note": ""
+        }
+      ],
+      "method": [
+        "碗中咖啡粉+糖+热水，电动打蛋器打至浅棕、硬性发泡",
+        "牛奶加热（可选）分入两杯，舀泡沫盖顶抹平"
+      ],
+      "glass": "耐热玻璃杯 ×2",
+      "beanNote": "速溶/espresso powder；未写单品豆",
+      "source": "BBC Food 媒体食谱",
+      "sourceUrls": [
+        "https://www.bbc.co.uk/food/recipes/dalonga_coffee_20606"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cafecito-bustelo",
+      "name": "古巴浓缩咖啡",
+      "nameEn": "Cafecito (Cuban Coffee)",
+      "ingredients": [
+        {
+          "item": "水",
+          "amount": "1¼ cups",
+          "note": ""
+        },
+        {
+          "item": "Espresso 研磨咖啡（Café Bustelo）",
+          "amount": "1/3 cup",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "1/4–1/3 cup",
+          "note": ""
+        }
+      ],
+      "method": [
+        "摩卡壶按厂商加水与粉，中火起萃",
+        "糖入量杯；刚出的咖啡约 ½ Tbsp 倒入糖中",
+        "勺搅约 1–2 分钟至奶白稠糊（espuma）",
+        "余下咖啡缓倒入糖糊搅匀，分杯"
+      ],
+      "glass": "浓缩小杯；约 4 人份",
+      "beanNote": "指定 Café Bustelo Espresso Ground；深烘拼配，未写单一产地品种",
+      "source": "Café Bustelo 品牌官方配方",
+      "sourceUrls": [
+        "https://www.cafebustelo.com/coffee/recipes/hot-coffee/cafecito"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "cortadito-ocana",
+      "name": "古巴可塔蒂多",
+      "nameEn": "Cuban Cortadito",
+      "ingredients": [
+        {
+          "item": "现萃 espresso 或浓摩卡壶咖啡",
+          "amount": "2 oz",
+          "note": ""
+        },
+        {
+          "item": "温热/蒸汽牛奶（可用淡炼乳）",
+          "amount": "2 oz",
+          "note": ""
+        },
+        {
+          "item": "砂糖",
+          "amount": "1–2 tsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "约 2 oz 浓咖啡",
+        "1–2 tsp 糖 + 约 1 tsp 初段咖啡搅出 espumita",
+        "余下咖啡倒入糖糊",
+        "约 2 oz 温奶倒入，即饮"
+      ],
+      "glass": "小咖啡杯",
+      "beanNote": "店方推荐自有 Reserve Espresso（巴西，焦糖/甘蔗/巧克力向）；亦可未写豆自选深烘",
+      "source": "Ocana Coffee 烘焙店博客配方",
+      "sourceUrls": [
+        "https://ocanacoffee.com/blogs/stay-in-the-know/cuban-style-cortadito-what-is-it-and-how-to-make-it"
+      ],
+      "credibility": "网络食谱（店方博客）",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "thai-iced-coffee-saveur",
+      "name": "泰式冰咖啡",
+      "nameEn": "Thai Iced Coffee",
+      "ingredients": [
+        {
+          "item": "深烘罗布斯塔粗研磨",
+          "amount": "¼ cup + 2 Tbsp（约 2 人份）",
+          "note": ""
+        },
+        {
+          "item": "沸水",
+          "amount": "煮 2 cups，实际浸泡用约 1½ cups",
+          "note": ""
+        },
+        {
+          "item": "糖或炼乳",
+          "amount": "按口味可选",
+          "note": ""
+        },
+        {
+          "item": "淡炼乳 evaporated milk",
+          "amount": "顶淋按口味",
+          "note": ""
+        },
+        {
+          "item": "碎冰",
+          "amount": "两高杯装满",
+          "note": ""
+        }
+      ],
+      "method": [
+        "布袋滤浸泡研磨咖啡于约 1½ cups 沸水约 1 分钟搅动",
+        "再滤一次，分入两杯冰上",
+        "可加糖/炼乳，顶淡炼乳"
+      ],
+      "glass": "高杯 ×2，装满碎冰",
+      "beanNote": "深烘 robusta；未锁单一批次",
+      "source": "Saveur 媒体食谱（Austin Bush）",
+      "sourceUrls": [
+        "https://www.saveur.com/article/recipes/classic-thai-iced-coffee/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "vietnamese-iced-coffee-saveur",
+      "name": "越南冰咖啡",
+      "nameEn": "Vietnamese Iced Coffee (Cà phê sữa đá)",
+      "ingredients": [
+        {
+          "item": "炼乳 sweetened condensed milk",
+          "amount": "1 Tbsp（18 g）",
+          "note": ""
+        },
+        {
+          "item": "中细研磨咖啡",
+          "amount": "2 Tbsp（10 g）",
+          "note": ""
+        },
+        {
+          "item": "沸水",
+          "amount": "bloom 28–30 g + 续水至合计约 84 g",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "rocks 杯装满",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯底放炼乳，上架 phin，压粉",
+        "先注 28–30 g 沸水闷蒸 60 秒，再续水至总约 84 g，盖盖滴约 5 分钟",
+        "搅匀后倒入装满冰的杯"
+      ],
+      "glass": "耐热 rocks 杯 → 换装满冰的 rocks 杯",
+      "beanNote": "建议中烘现磨；未写单一产地品种",
+      "source": "Saveur 媒体食谱",
+      "sourceUrls": [
+        "https://www.saveur.com/vietnamese-iced-coffee-ca-phe-sua-da-recipe/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "einspaenner-vienna",
+      "name": "维也纳奶油咖啡（Einspänner）",
+      "nameEn": "Viennese Einspänner",
+      "ingredients": [
+        {
+          "item": "espresso 或特浓黑咖啡",
+          "amount": "2 fl oz espresso（或 ½ cup 特浓黑咖）",
+          "note": ""
+        },
+        {
+          "item": "热水（可选拉长）",
+          "amount": "2 fl oz 可选",
+          "note": ""
+        },
+        {
+          "item": "冰镇淡奶油 heavy cream",
+          "amount": "½ cup",
+          "note": ""
+        },
+        {
+          "item": "糖粉",
+          "amount": "2 tsp 或按口味",
+          "note": ""
+        },
+        {
+          "item": "可可粉或黑巧克力屑",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "冷奶油+糖粉打至软性发泡",
+        "预热杯，倒双份 espresso（可加 2–3 oz 热水拉长）",
+        "勺背浮奶油层，撒可可/巧克力屑；勿搅，透过奶油喝"
+      ],
+      "glass": "透明耐热玻璃杯（预热）",
+      "beanNote": "未写豆；建议浓郁深色咖啡底",
+      "source": "World Food & Wine 网络食谱（奥地利料理向）",
+      "sourceUrls": [
+        "https://www.worldfoodwine.com/recipe/traditional-viennese-einspanner"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "mazagran-torrie",
+      "name": "马扎格朗柠檬冰咖",
+      "nameEn": "Mazagran",
+      "ingredients": [
+        {
+          "item": "Torrié espresso",
+          "amount": "3 份",
+          "note": ""
+        },
+        {
+          "item": "柠檬汁",
+          "amount": "1 个柠檬",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "6 tbsp",
+          "note": ""
+        },
+        {
+          "item": "水、冰、柠檬片",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "朗姆酒",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "咖啡+柠檬汁+糖（+可选朗姆）搅至糖溶",
+        "入壶加冰与柠檬片，加水至口味"
+      ],
+      "glass": "水壶/大杯分享装",
+      "beanNote": "Torrié 品牌 espresso；未写绿豆品种",
+      "source": "Torrié 品牌官方配方（chef João Pupo）",
+      "sourceUrls": [
+        "https://www.torrie.pt/recipes/mazagran"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "toasted-coconut-iced-nespresso",
+      "name": "烤椰冰咖啡",
+      "nameEn": "Toasted Coconut Iced Coffee",
+      "ingredients": [
+        {
+          "item": "冰块",
+          "amount": "4 块",
+          "note": ""
+        },
+        {
+          "item": "Linizio Lungo 胶囊",
+          "amount": "2 颗",
+          "note": ""
+        },
+        {
+          "item": "冷椰奶",
+          "amount": "100 ml",
+          "note": ""
+        },
+        {
+          "item": "椰子糖浆",
+          "amount": "1 tsp",
+          "note": ""
+        },
+        {
+          "item": "烤椰片 toasted coconut flakes",
+          "amount": "1 tsp 装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中放 4 块冰",
+        "萃 2 颗 Linizio Lungo 于冰上",
+        "加 100 ml 冷椰奶 + 1 tsp 椰子糖浆，搅匀",
+        "顶烤椰片"
+      ],
+      "glass": "配方杯 / recipe glass",
+      "beanNote": "指定 Nespresso Linizio Lungo 胶囊；未写绿豆细节",
+      "source": "Nespresso 品牌官方配方 PDF",
+      "sourceUrls": [
+        "https://www.nespresso.com/ncp/res/generated/recipes/20505TOA_en_INT.pdf",
+        "https://www.nespresso.com/recipes/int/en/20505TOA-toasted-coconut-iced-coffee.html"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "red-eye-online-coffee-guide",
+      "name": "红眼咖啡",
+      "nameEn": "Red Eye Coffee",
+      "ingredients": [
+        {
+          "item": "现煮黑咖啡（滴滤/手冲成品量）",
+          "amount": "237 ml / 8 US fl oz",
+          "note": ""
+        },
+        {
+          "item": "现萃 espresso",
+          "amount": "30 ml / 1 US fl oz",
+          "note": ""
+        }
+      ],
+      "method": [
+        "滴滤或手冲，量取 237 ml 成品入预热杯",
+        "另萃 espresso，量 30 ml 倒入搅匀"
+      ],
+      "glass": "约 350 ml / 12 oz 马克杯",
+      "beanNote": "未写豆；建议自选适配的滴滤豆+意式豆",
+      "source": "Online Coffee Guide 网络食谱（引用 Mayo/USDA 作营养参照）",
+      "sourceUrls": [
+        "https://www.onlinecoffeeguide.com/coffee-drinks/red-eye-coffee"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "006",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "caramel-macchiato-starbucks",
+      "name": "焦糖玛奇朵",
+      "nameEn": "Caramel Macchiato",
+      "ingredients": [
+        {
+          "item": "Starbucks Espresso Roast（Nespresso 胶囊）",
+          "amount": "1 粒",
+          "note": ""
+        },
+        {
+          "item": "牛奶（自选）",
+          "amount": "0.75 cup",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "焦糖酱",
+          "amount": "适量装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯底倒入香草糖浆",
+        "打发牛奶后倒入杯中",
+        "萃 1 份 espresso，穿过奶泡倒入",
+        "顶部淋焦糖酱"
+      ],
+      "glass": "马克杯",
+      "beanNote": "产品线 Espresso Roast；未写绿豆产地",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/caramel-macchiato"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-caramel-macchiato-starbucks",
+      "name": "冰焦糖玛奇朵",
+      "nameEn": "Iced Caramel Macchiato",
+      "ingredients": [
+        {
+          "item": "Starbucks Espresso Roast",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1 oz",
+          "note": ""
+        },
+        {
+          "item": "2% 牛奶",
+          "amount": "0.75 cup",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "至杯沿下约 ½ inch",
+          "note": ""
+        },
+        {
+          "item": "焦糖酱",
+          "amount": "适量装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "玻璃杯倒入香草糖浆",
+        "加入冷牛奶",
+        "加冰至杯沿下约 ½ inch",
+        "倒入 espresso",
+        "顶部淋焦糖酱"
+      ],
+      "glass": "高杯",
+      "beanNote": "Espresso Roast；未写绿豆产地",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-caramel-macchiato"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "vanilla-sweet-cream-cold-brew-sb",
+      "name": "香草甜奶油冷萃",
+      "nameEn": "Vanilla Sweet Cream Cold Brew",
+      "ingredients": [
+        {
+          "item": "Starbucks Signature Black 冷萃浓缩",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "水",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "香草风味甜奶油 Vanilla Flavored Sweet Cream",
+          "amount": "1.5 oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰至杯沿下约半英寸",
+        "倒入冷萃浓缩与水，搅拌均匀",
+        "顶部加满香草甜奶油至杯沿"
+      ],
+      "glass": "高杯 / mason jar",
+      "beanNote": "冷萃浓缩产品线",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/vanilla-sweet-cream-cold-brew"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "caffe-mocha-starbucks",
+      "name": "摩卡咖啡（门店风）",
+      "nameEn": "Caffè Mocha",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1 shot / 约 1 oz",
+          "note": ""
+        },
+        {
+          "item": "牛奶",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "摩卡酱 mocha sauce",
+          "amount": "3 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "巧克力屑",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 espresso 倒入杯中",
+        "打发牛奶",
+        "加入摩卡酱搅入咖啡",
+        "倒入打发牛奶至近满",
+        "顶部可加鲜奶油与巧克力屑"
+      ],
+      "glass": "马克杯",
+      "beanNote": "Espresso Roast",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/caffe-mocha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-mocha-starbucks",
+      "name": "冰摩卡",
+      "nameEn": "Iced Mocha",
+      "ingredients": [
+        {
+          "item": "Starbucks Premium Instant Coffee",
+          "amount": "2 tsp",
+          "note": ""
+        },
+        {
+          "item": "凉水",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "0.75 cup",
+          "note": ""
+        },
+        {
+          "item": "全脂奶或植物奶",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "巧克力糖浆",
+          "amount": "2–4 Tbsp 按口味",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油/巧克力屑",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "速溶咖啡与凉水在杯中混合",
+        "加冰",
+        "另杯混合牛奶与巧克力糖浆，再并入第一杯",
+        "顶部可加鲜奶油与巧克力装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "即溶产品线",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-mocha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-cinnamon-dolce-mocha-sb",
+      "name": "冰肉桂多切摩卡（燕麦奶冷奶盖）",
+      "nameEn": "Iced Cinnamon Dolce Mocha With Cinnamon Oatmilk Cold Foam",
+      "ingredients": [
+        {
+          "item": "Starbucks Cinnamon Dolce 风味咖啡（煮后放凉）",
+          "amount": "8 oz",
+          "note": ""
+        },
+        {
+          "item": "巧克力糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "特浓燕麦奶",
+          "amount": "0.25 cup",
+          "note": ""
+        },
+        {
+          "item": "肉桂多切糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "肉桂粉/肉桂棒/可可",
+          "amount": "装饰可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "16 oz 杯倒入巧克力糖浆",
+        "加入放凉的肉桂多切咖啡并搅拌",
+        "加冰至杯沿下 ½ inch",
+        "燕麦奶+肉桂糖浆冷打发成冷奶盖",
+        "冷奶盖加至杯沿，撒可可/肉桂装饰"
+      ],
+      "glass": "16 oz 杯",
+      "beanNote": "Cinnamon Dolce 风味咖啡",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-cinnamon-dolce-mocha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-coffee-lemonade-sb",
+      "name": "冰咖啡柠檬水",
+      "nameEn": "Iced Coffee Lemonade",
+      "ingredients": [
+        {
+          "item": "细砂糖",
+          "amount": "1.5 cups（制柠檬水用）",
+          "note": ""
+        },
+        {
+          "item": "过滤水",
+          "amount": "1 cup（制糖浆）+ 柠檬水部分",
+          "note": ""
+        },
+        {
+          "item": "鲜榨柠檬汁",
+          "amount": "0.25 cup",
+          "note": ""
+        },
+        {
+          "item": "柠檬水（成品或自制）",
+          "amount": "0.5 cup",
+          "note": ""
+        },
+        {
+          "item": "双倍浓度咖啡",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "气泡水",
+          "amount": "少许 splash",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "小锅糖+水中火约 5 分钟溶成糖浆，放凉",
+        "鲜榨柠檬汁，与水、糖浆混合成柠檬水",
+        "杯中加冰，另备双倍浓度咖啡（建议法压）",
+        "咖啡与柠檬水约 1:1 混合",
+        "加少许气泡水"
+      ],
+      "glass": "高杯",
+      "beanNote": "建议咖啡压壶双倍浓度",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-coffee-lemonade"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "iced-vanilla-lavender-oatfoam-sb",
+      "name": "冰香草薰衣草咖啡（燕麦奶冷奶盖）",
+      "nameEn": "Iced Vanilla Lavender Coffee With Oatmilk Cold Foam",
+      "ingredients": [
+        {
+          "item": "Starbucks Vanilla Lavender 风味咖啡（双倍浓度）",
+          "amount": "6 oz",
+          "note": ""
+        },
+        {
+          "item": "原蔗糖 turbinado",
+          "amount": "杯沿装饰",
+          "note": ""
+        },
+        {
+          "item": "水",
+          "amount": "润杯沿",
+          "note": ""
+        },
+        {
+          "item": "燕麦奶",
+          "amount": "6 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "薰衣草糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "半杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "浅盘放原蔗糖、另盘放水；杯沿蘸水再蘸糖",
+        "双倍浓度煮咖啡，放凉",
+        "燕麦奶+香草+薰衣草糖浆冷打发",
+        "16 oz 杯加半杯冰，倒入咖啡",
+        "顶部加香草薰衣草燕麦奶冷奶盖"
+      ],
+      "glass": "16 oz 杯",
+      "beanNote": "Vanilla Lavender 风味咖啡",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-vanilla-lavender-coffee-with-oatmilk-cold-foam"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "pistachio-latte-starbucks",
+      "name": "开心果拿铁",
+      "nameEn": "Pistachio Latte",
+      "ingredients": [
+        {
+          "item": "黄油（制焦黄油）",
+          "amount": "0.25 cup",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1 oz / 1 shot",
+          "note": ""
+        },
+        {
+          "item": "开心果糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "焦黄油 browned butter",
+          "amount": "0.5 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "全脂牛奶",
+          "amount": "8 oz",
+          "note": ""
+        },
+        {
+          "item": "碎短面包饼干",
+          "amount": "1 tsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "黄油中小火融化至金棕色，沉淀后离火盛出",
+        "萃 espresso",
+        "加入开心果糖浆与焦黄油轻搅",
+        "打发牛奶倒入",
+        "顶部撒碎短面包"
+      ],
+      "glass": "马克杯",
+      "beanNote": "Espresso Roast",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/pistachio-latte"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "blonde-vanilla-latte-sb",
+      "name": "浅烘香草拿铁",
+      "nameEn": "Blonde Vanilla Latte",
+      "ingredients": [
+        {
+          "item": "Starbucks Blonde Espresso Roast（Nespresso）",
+          "amount": "1 粒",
+          "note": ""
+        },
+        {
+          "item": "牛奶",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 Blonde espresso 倒入杯中",
+        "打发牛奶",
+        "加入香草糖浆轻搅",
+        "倒入打发牛奶至近满",
+        "剩余奶泡舀至顶部"
+      ],
+      "glass": "马克杯",
+      "beanNote": "Blonde Espresso Roast",
+      "source": "Starbucks Coffee At Home 品牌官方",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/starbucks-blonde-vanilla-latte"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cafe-de-olla-epicurious",
+      "name": "墨西哥罐煮咖啡",
+      "nameEn": "Café de Olla",
+      "ingredients": [
+        {
+          "item": "水",
+          "amount": "1 quart / 约 950 ml",
+          "note": ""
+        },
+        {
+          "item": "piloncillo 或红糖",
+          "amount": "4–5 oz 或 ½–⅔ cup 红糖+1 tsp 糖蜜",
+          "note": ""
+        },
+        {
+          "item": "肉桂棒",
+          "amount": "2 inches",
+          "note": ""
+        },
+        {
+          "item": "茴芹籽",
+          "amount": "少许可选",
+          "note": ""
+        },
+        {
+          "item": "维也纳烘焙咖啡（中粗研磨）",
+          "amount": "⅔ cup / 约 2 oz",
+          "note": ""
+        }
+      ],
+      "method": [
+        "不腐蚀锅中加水、糖、肉桂、可选茴芹，慢煮至糖溶",
+        "搅入咖啡，离火加盖焖 5 分钟",
+        "细筛滤入杯中趁热饮用"
+      ],
+      "glass": "陶杯 / 马克杯",
+      "beanNote": "建议维也纳烘焙；墨西哥产地常见",
+      "source": "Epicurious / Rick Bayless《Authentic Mexican》",
+      "sourceUrls": [
+        "https://www.epicurious.com/recipes/food/views/pot-brewed-coffee-with-raw-sugar-and-spices-cafe-de-olla-15366"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "yuanyang-homegrounds",
+      "name": "鸳鸯咖啡（港式咖啡奶茶）",
+      "nameEn": "Yuanyang / Yuenyeung",
+      "ingredients": [
+        {
+          "item": "锡兰红茶",
+          "amount": "4 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "炼乳",
+          "amount": "4 oz",
+          "note": ""
+        },
+        {
+          "item": "浓咖啡",
+          "amount": "16 oz",
+          "note": ""
+        },
+        {
+          "item": "水（煮茶）",
+          "amount": "16 oz / 2 cups",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "2 cups 水近沸，加红茶小火煮 3–4 分钟，滤入大壶",
+        "加入炼乳搅匀成港式奶茶",
+        "另煮 16 oz 浓咖啡（建议法压约 36g/17oz 水）",
+        "咖啡并入奶茶搅匀",
+        "热饮分杯；冰饮放凉后倒入冰杯"
+      ],
+      "glass": "马克杯或高杯",
+      "beanNote": "建议中深烘焙以平衡奶茶",
+      "source": "Home Grounds 媒体食谱",
+      "sourceUrls": [
+        "https://www.homegrounds.co/yuanyang-coffee-recipe/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cafe-bombon-spruce",
+      "name": "邦邦咖啡 / 加那利咖啡",
+      "nameEn": "Café Bombón / Café Canario",
+      "ingredients": [
+        {
+          "item": "淡奶油 heavy whipping cream",
+          "amount": "9 oz / 252 g（4 人份）",
+          "note": ""
+        },
+        {
+          "item": "香草精",
+          "amount": "1/4 tsp",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "8 oz / 250 ml",
+          "note": ""
+        },
+        {
+          "item": "炼乳",
+          "amount": "8 oz / 224 g",
+          "note": ""
+        },
+        {
+          "item": "可可粉",
+          "amount": "4 Tbsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "奶油加香草精打发至软峰",
+        "煮约 8 oz 浓 espresso",
+        "4 杯各倒 2 oz 炼乳，再倒咖啡（炼乳沉底）",
+        "顶部加鲜奶油，每杯撒约 1 Tbsp 可可",
+        "饮前搅拌"
+      ],
+      "glass": "透明小玻璃杯 ×4",
+      "beanNote": "建议细研磨意式拼配",
+      "source": "The Spruce Eats",
+      "sourceUrls": [
+        "https://www.thespruceeats.com/cafe-canario-or-cafe-bombon-recipe-3082956"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "greek-frappe-seriouseats",
+      "name": "希腊弗拉佩",
+      "nameEn": "Greek Frappé",
+      "ingredients": [
+        {
+          "item": "即溶咖啡",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冷水",
+          "amount": "约 2 Tbsp（起泡用）",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味可选",
+          "note": ""
+        },
+        {
+          "item": "淡奶 evaporated milk",
+          "amount": "按口味可选",
+          "note": ""
+        },
+        {
+          "item": "冰与冷水",
+          "amount": "加满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "摇壶或瓶中加 2 Tbsp 水、即溶咖啡、可选糖，猛摇约 30 秒起厚泡沫",
+        "倒入盛冰高杯，加水（与可选淡奶）至满",
+        "插吸管慢饮"
+      ],
+      "glass": "高杯",
+      "beanNote": "即溶咖啡（希腊传统 spray-dried）",
+      "source": "Serious Eats",
+      "sourceUrls": [
+        "https://www.seriouseats.com/frappe-foamy-greek-iced-coffee"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "gingerbread-latte-allrecipes",
+      "name": "姜饼拿铁",
+      "nameEn": "Gingerbread Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 fl oz",
+          "note": ""
+        },
+        {
+          "item": "姜饼风味糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "0.5 cup",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "0.125 cup",
+          "note": ""
+        },
+        {
+          "item": "肉豆蔻粉",
+          "amount": "少许",
+          "note": ""
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "少许",
+          "note": ""
+        },
+        {
+          "item": "香草粉",
+          "amount": "0.5 tsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中倒入 espresso 与姜饼糖浆搅匀",
+        "倒入蒸汽牛奶",
+        "顶部加鲜奶油，撒肉豆蔻、肉桂与香草粉"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "Allrecipes",
+      "sourceUrls": [
+        "https://www.allrecipes.com/recipe/47511/gingerbread-latte/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "eggnog-latte-allrecipes",
+      "name": "蛋酒拿铁",
+      "nameEn": "Eggnog Latte",
+      "ingredients": [
+        {
+          "item": "espresso 或浓咖啡",
+          "amount": "按杯量约 1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "蛋酒 eggnog",
+          "amount": "与奶合计近满",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "肉豆蔻",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 espresso 倒入杯中",
+        "加热并打发蛋酒与牛奶混合（或分别加热后混合）",
+        "倒入杯中，顶部撒肉豆蔻"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "Allrecipes",
+      "sourceUrls": [
+        "https://www.allrecipes.com/recipe/146962/eggnog-latte/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "white-russian-allrecipes",
+      "name": "白俄罗斯（咖啡利口酒）",
+      "nameEn": "White Russian",
+      "ingredients": [
+        {
+          "item": "奶油或牛奶",
+          "amount": "0.5 cup",
+          "note": ""
+        },
+        {
+          "item": "咖啡利口酒",
+          "amount": "1 fl oz",
+          "note": ""
+        },
+        {
+          "item": "伏特加",
+          "amount": "1 fl oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰",
+        "倒入伏特加与咖啡利口酒",
+        "顶部倒入奶油或牛奶（可搅拌）"
+      ],
+      "glass": "古典杯 / rocks",
+      "beanNote": "无咖啡豆；咖啡利口酒基底",
+      "source": "Allrecipes",
+      "sourceUrls": [
+        "https://www.allrecipes.com/recipe/85326/white-russian/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "nescafe-iced-caramel-latte-macchiato",
+      "name": "冰焦糖拿铁玛奇朵（NESCAFÉ）",
+      "nameEn": "Iced Caramel Latte Macchiato (NESCAFÉ)",
+      "ingredients": [
+        {
+          "item": "NESCAFÉ Gold Espresso Intense 即溶",
+          "amount": "2 tsp",
+          "note": ""
+        },
+        {
+          "item": "热水（约 175°F）",
+          "amount": "1/4 cup",
+          "note": ""
+        },
+        {
+          "item": "焦糖糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "脱脂奶",
+          "amount": "2/3 cup",
+          "note": ""
+        },
+        {
+          "item": "冰块",
+          "amount": "8 块",
+          "note": ""
+        }
+      ],
+      "method": [
+        "即溶咖啡与热水在量杯中溶解",
+        "加入焦糖糖浆搅匀",
+        "打发牛奶至起泡",
+        "杯中加冰，倒入打发牛奶",
+        "再倒入咖啡焦糖液"
+      ],
+      "glass": "高杯",
+      "beanNote": "即溶产品线",
+      "source": "NESCAFÉ 品牌官方",
+      "sourceUrls": [
+        "https://www.nescafe.com/us/recipes/iced-caramel-latte-macchiato/"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "bulletproof-coffee-official",
+      "name": "防弹咖啡",
+      "nameEn": "Bulletproof Coffee",
+      "ingredients": [
+        {
+          "item": "现煮咖啡",
+          "amount": "8–12 oz",
+          "note": ""
+        },
+        {
+          "item": "MCT 油",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "草饲酥油 ghee 或无盐黄油",
+          "amount": "1 Tbsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "煮 8–12 oz 咖啡",
+        "加入 MCT 油与酥油/黄油",
+        "搅拌机搅打 20–30 秒至乳化发白"
+      ],
+      "glass": "马克杯",
+      "beanNote": "建议新鲜烘焙豆",
+      "source": "Bulletproof 品牌官方",
+      "sourceUrls": [
+        "https://www.bulletproof.com/recipes/bulletproof-diet-recipes/bulletproof-coffee-recipe/"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "caffe-corretto-carluccios",
+      "name": "修正咖啡",
+      "nameEn": "Caffè Corretto",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1 份",
+          "note": ""
+        },
+        {
+          "item": "Grappa 或 Sambuca",
+          "amount": "7–10 ml",
+          "note": ""
+        },
+        {
+          "item": "咖啡豆",
+          "amount": "3 颗装饰可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "现萃 espresso",
+        "加入 7–10 ml Grappa 或 Sambuca",
+        "可放三颗咖啡豆装饰，趁热饮用"
+      ],
+      "glass": "意式浓缩杯",
+      "beanNote": "未写豆",
+      "source": "Carluccio's 指南 / 意式传统做法综述",
+      "sourceUrls": [
+        "https://www.carluccios.com/blogs/advice-centre/making-a-caffe-corretto",
+        "https://www.seriouseats.com/coffee-traditions-caffe-corretto"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "kopi-tubruk-nescafe-id",
+      "name": "印尼捣煮咖啡",
+      "nameEn": "Kopi Tubruk",
+      "ingredients": [
+        {
+          "item": "细研磨咖啡",
+          "amount": "约 15 g",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "热水",
+          "amount": "约 140 ml，92–96°C",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中放咖啡粉与糖",
+        "冲入热水搅匀",
+        "静置 3–5 分钟待粉渣沉降",
+        "从上层啜饮（不滤粉）"
+      ],
+      "glass": "约 140 ml 玻璃杯",
+      "beanNote": "印尼细研磨咖啡",
+      "source": "NESCAFÉ Indonesia 咖啡文化页",
+      "sourceUrls": [
+        "https://www.nescafe.com/id/en-id/coffee-culture/coffee-lifestyle/craving-kopi-tubruk"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "peppermint-mocha-cnbc",
+      "name": "薄荷摩卡",
+      "nameEn": "Peppermint Mocha",
+      "ingredients": [
+        {
+          "item": "摩卡酱或融化巧克力",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "薄荷糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "牛奶",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "可选",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油/巧克力屑",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加摩卡酱与薄荷糖浆",
+        "倒入 espresso 充分搅匀",
+        "倒入牛奶（可加冰）",
+        "顶部可加鲜奶油与巧克力屑"
+      ],
+      "glass": "马克杯或高杯",
+      "beanNote": "未写豆",
+      "source": "CNBC Make It（前星巴克 barista 家用复刻）",
+      "sourceUrls": [
+        "https://www.cnbc.com/make-it/2023/02/28/i-was-a-starbucks-barista-how-i-make-the-most-popular-drinks-at-home.html"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "salted-caramel-cold-foam-cb3",
+      "name": "咸焦糖冷萃奶盖",
+      "nameEn": "Salted Caramel Cold Brew with Cold Foam",
+      "ingredients": [
+        {
+          "item": "焦糖酱",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冷萃咖啡",
+          "amount": "3/4 cup",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "半半奶 half & half",
+          "amount": "1/3 cup",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "海盐",
+          "amount": " pinch",
+          "note": ""
+        }
+      ],
+      "method": [
+        "法压壶中混合 half & half、香草糖浆与盐，活塞抽压 30–40 次成冷奶盖",
+        "杯中倒焦糖酱与冷萃，加冰",
+        "顶部加冷奶盖，饮前可搅拌"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "Coffee at Three 媒体复刻",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "freddo-cappuccino-allrecipes",
+      "name": "希腊冰卡布（Freddo Cappuccino）",
+      "nameEn": "Freddo Cappuccino",
+      "ingredients": [
+        {
+          "item": "双份 espresso",
+          "amount": "约 60 ml",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "冷牛奶",
+          "amount": "60–100 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "espresso 与糖、冰摇匀起泡",
+        "冷牛奶打发成冷奶泡",
+        "高杯加冰，倒入摇好的冰浓缩，顶部铺冷奶泡"
+      ],
+      "glass": "高杯",
+      "beanNote": "现萃 espresso",
+      "source": "Allrecipes / 希腊做法综述",
+      "sourceUrls": [
+        "https://www.allrecipes.com/freddo-cappuccino-recipe-11751610"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "south-indian-filter-kaapi-saveur",
+      "name": "南印度过滤咖啡",
+      "nameEn": "South Indian Filter Coffee (Filter Kaapi)",
+      "ingredients": [
+        {
+          "item": "中细研磨咖啡（可含菊苣）",
+          "amount": "约 2–3 Tbsp / 滤杯量",
+          "note": ""
+        },
+        {
+          "item": "沸水",
+          "amount": "注满上层滤杯",
+          "note": ""
+        },
+        {
+          "item": "热牛奶",
+          "amount": "约 2 份相对 1 份 decoction",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味",
+          "note": ""
+        }
+      ],
+      "method": [
+        "南印度滤杯上层加咖啡粉，倒沸水盖盖，渗滤约 10–20 分钟得浓缩 decoction",
+        "杯中放糖，倒入 decoction 与热牛奶（约 1:2）",
+        "在 tumbler 与 dabara 间来回倒几次起泡沫"
+      ],
+      "glass": "tumbler + dabara",
+      "beanNote": "传统常含菊苣拼配",
+      "source": "Saveur",
+      "sourceUrls": [
+        "https://www.saveur.com/recipes/south-indian-filter-coffee/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "dirty-chai-lavender-create",
+      "name": "冰薰衣草脏脏奶茶拿铁",
+      "nameEn": "Iced Lavender Dirty Chai Latte",
+      "ingredients": [
+        {
+          "item": "浓缩或浓茶 chai",
+          "amount": "1 shot espresso + 沏好的 chai 基底",
+          "note": ""
+        },
+        {
+          "item": "燕麦奶或牛奶",
+          "amount": "约 1/2 cup",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜薰衣草糖浆",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与 chai（可另加 espresso）",
+        "倒入植物奶/牛奶",
+        "加入蜂蜜薰衣草糖浆搅匀或分层后饮前搅拌"
+      ],
+      "glass": "高杯",
+      "beanNote": "未写豆",
+      "source": "Create Mindfully 网络食谱",
+      "sourceUrls": [
+        "https://createmindfully.com/iced-lavender-dirty-chai-latte/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "dirty-oat-matcha-milklab",
+      "name": "脏脏燕麦抹茶",
+      "nameEn": "Dirty Oat Matcha",
+      "ingredients": [
+        {
+          "item": "抹茶粉",
+          "amount": "约 1–2 g / 1 tsp",
+          "note": ""
+        },
+        {
+          "item": "热水",
+          "amount": "少量打浆",
+          "note": ""
+        },
+        {
+          "item": "燕麦奶",
+          "amount": "约 150–200 ml",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1 shot",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "抹茶热水打成匀浆",
+        "杯中加冰与燕麦奶，倒入抹茶",
+        "顶部或侧面倒入 espresso 形成「脏」层，不强制搅拌"
+      ],
+      "glass": "高杯",
+      "beanNote": "espresso 现萃",
+      "source": "MILKLAB 品牌配方",
+      "sourceUrls": [
+        "https://www.milklabco.com/recipes/dirty-oat-matcha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "baileys-coffee-granita",
+      "name": "百利甜咖啡刨冰",
+      "nameEn": "Baileys Coffee Granita",
+      "ingredients": [
+        {
+          "item": "浓 espresso",
+          "amount": "约 1 cup",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "约 1/4 cup",
+          "note": ""
+        },
+        {
+          "item": "Baileys 爱尔兰奶油利口酒",
+          "amount": "约 3 oz",
+          "note": ""
+        }
+      ],
+      "method": [
+        "热 espresso 溶糖，放凉后拌入 Baileys",
+        "倒入浅盘冷冻，每 30 分钟用叉刮搅，约 3–4 小时至刨冰质地",
+        "分杯可加鲜奶油"
+      ],
+      "glass": "浅盘制 / 杯装",
+      "beanNote": "未写豆",
+      "source": "Baileys 官方食谱",
+      "sourceUrls": [
+        "https://www.baileys.com/en-us/recipes/baileys-coffee-granita"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "coffee-granita-tasteofhome",
+      "name": "咖啡刨冰",
+      "nameEn": "Coffee Granita",
+      "ingredients": [
+        {
+          "item": "浓咖啡",
+          "amount": "按配方量",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味溶入热咖啡",
+          "note": ""
+        },
+        {
+          "item": "水/可选利口酒",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "热咖啡溶糖，放凉倒入浅盘",
+        "冷冻并定时叉刮至细刨冰",
+        "分装食用，可配鲜奶油"
+      ],
+      "glass": "杯装",
+      "beanNote": "未写豆",
+      "source": "Taste of Home",
+      "sourceUrls": [
+        "https://www.tasteofhome.com/recipes/coffee-granita/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "grapefruit-cold-brew",
+      "name": "西柚冷萃",
+      "nameEn": "Grapefruit Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃咖啡",
+          "amount": "约 1 cup",
+          "note": ""
+        },
+        {
+          "item": "西柚汁",
+          "amount": "约 1/4 cup",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "1 tsp 可选",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "espresso 可选覆盖",
+          "amount": "2 shots 可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与西柚汁（可拌蜂蜜）",
+        "倒入冷萃；或将加蜜的热 espresso 缓缓倒在果汁上分层"
+      ],
+      "glass": "高杯",
+      "beanNote": "建议明亮浅烘焙",
+      "source": "Fitty Foodlicious 网络食谱",
+      "sourceUrls": [
+        "https://fittyfoodlicious.com/recipes/grapefruit-cold-brew/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "honey-lavender-cold-foam",
+      "name": "蜂蜜薰衣草冷奶盖咖啡",
+      "nameEn": "Honey Lavender Cold Foam Coffee",
+      "ingredients": [
+        {
+          "item": "冷萃或冰咖啡",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "脱脂奶或燕麦奶",
+          "amount": "约 1 cup 制奶盖",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜糖浆",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "食用薰衣草",
+          "amount": "少许",
+          "note": ""
+        },
+        {
+          "item": "柠檬皮屑",
+          "amount": "少许可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "奶、蜂蜜、薰衣草（及可选柠檬皮）打发成冷奶盖",
+        "杯中倒冷萃/冰咖啡",
+        "顶部铺冷奶盖"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "Whole Latte Love / 冷奶盖做法",
+      "sourceUrls": [
+        "https://www.wholelattelove.com/blogs/recipes/honey-lavender-cold-foam-recipe"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cascara-tea-soda-generic",
+      "name": "咖啡果皮汽泡苏打",
+      "nameEn": "Cascara Soda",
+      "ingredients": [
+        {
+          "item": "cascara（咖啡果皮）",
+          "amount": "约 10–15 g",
+          "note": ""
+        },
+        {
+          "item": "热水",
+          "amount": "约 200 ml 冲泡",
+          "note": ""
+        },
+        {
+          "item": "糖或蜂蜜",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "气泡水",
+          "amount": "约 100–150 ml",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "柠檬片",
+          "amount": "装饰可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "热水冲泡 cascara 约 4–6 分钟，滤出放凉，可加甜",
+        "杯中加冰与 cascara 茶液",
+        "倒入气泡水，柠檬装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "cascara 非生豆",
+      "source": "Metric Cascara Fizz 旁支 / 通用网络做法（与已有 Cascara Fizz 材料路径不同：苏打向）",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "elderflower-espresso-tonic",
+      "name": "接骨木花浓缩通宁",
+      "nameEn": "Elderflower Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "接骨木花糖浆/cordial",
+          "amount": "1/4–1/2 oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "柠檬皮",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "高杯加冰与汤力水，可先加接骨木花糖浆",
+        "缓缓倒入现萃 espresso",
+        "柠檬皮装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "明亮果酸豆",
+      "source": "Methodical Coffee 通宁变奏指南",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "cold-brew-tonic",
+      "name": "冷萃通宁",
+      "nameEn": "Cold Brew Tonic",
+      "ingredients": [
+        {
+          "item": "冷萃浓缩",
+          "amount": "2–3 oz",
+          "note": ""
+        },
+        {
+          "item": "冰镇汤力水",
+          "amount": "约 4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "柑橘皮",
+          "amount": "装饰可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与汤力水",
+        "倒入冷萃浓缩",
+        "柑橘皮装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃浓缩",
+      "source": "Methodical Coffee",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "oatmilk-honey-latte",
+      "name": "燕麦奶蜂蜜拿铁",
+      "nameEn": "Oatmilk Honey Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "燕麦奶",
+          "amount": "约 200–250 ml",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "1–2 tsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 espresso，搅入蜂蜜",
+        "打发燕麦奶倒入",
+        "可留薄奶泡"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "通用网络/咖啡馆常见做法（材料清晰）",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/honey-almondmilk-flat-white"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "almond-vanilla-iced-latte",
+      "name": "香草杏仁奶冰拿铁",
+      "nameEn": "Iced Vanilla Almondmilk Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "无糖杏仁奶",
+          "amount": "约 6–8 oz",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加香草糖浆与冰",
+        "倒入杏仁奶",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "未写豆",
+      "source": "Starbucks 风味路径旁支（香草+植物奶）",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/starbucks-blonde-vanilla-latte"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "chocolate-cream-cold-brew",
+      "name": "巧克力奶油冷萃",
+      "nameEn": "Chocolate Cream Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "约 3/4–1 cup",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1 Tbsp 可选",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "香草甜奶油或 half&half",
+          "amount": "约 1/3 cup",
+          "note": ""
+        },
+        {
+          "item": "巧克力麦芽粉/可可",
+          "amount": "1–2 tsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中倒冷萃（可加香草糖浆）与冰",
+        "甜奶油/奶与巧克力粉打发成奶油顶",
+        "铺在冷萃上"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "Nestlé Coffee Partners 配方卡路径 / 门店风复刻",
+      "sourceUrls": [
+        "https://www.nestlecoffeepartnerssl.com/media/downloads/summer24/WPS-Summer124-Consolidated-Recipe-Card.pdf"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "pistachio-cream-cold-brew",
+      "name": "开心果奶油冷萃",
+      "nameEn": "Pistachio Cream Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "约 3/4 cup",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "开心果糖浆+奶制冷奶盖",
+          "amount": "约 1/3 cup",
+          "note": ""
+        },
+        {
+          "item": "焦黄油碎/短面包屑",
+          "amount": "装饰可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中冷萃+香草糖浆+冰",
+        "制作开心果风味冷奶盖铺顶",
+        "可撒焦黄油感碎屑"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "Midwest Nice 星巴克风复刻",
+      "sourceUrls": [
+        "https://midwestniceblog.com/pistachio-cream-cold-brew/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "baileys-hot-coffee",
+      "name": "百利甜热咖啡",
+      "nameEn": "Baileys Coffee",
+      "ingredients": [
+        {
+          "item": "热咖啡",
+          "amount": "约 150–180 ml",
+          "note": ""
+        },
+        {
+          "item": "Baileys",
+          "amount": "约 50 ml",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "适量装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中倒热咖啡",
+        "加入 Baileys 搅匀",
+        "顶部可浮鲜奶油"
+      ],
+      "glass": "热饮杯",
+      "beanNote": "未写豆",
+      "source": "Baileys 常见官方/零售配方路径",
+      "sourceUrls": [
+        "https://www.baileys.com/en-us/recipes/baileys-coffee-granita"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "espresso-romano",
+      "name": "罗马浓缩",
+      "nameEn": "Espresso Romano",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "柠檬片或柠檬皮",
+          "amount": "1 片",
+          "note": ""
+        }
+      ],
+      "method": [
+        "现萃 espresso",
+        "配柠檬片挤汁或用柠檬皮擦杯沿后放入/旁置",
+        "趁热饮用"
+      ],
+      "glass": "浓缩杯",
+      "beanNote": "未写豆",
+      "source": "意式传统菜单名；材料极简可操作",
+      "sourceUrls": [
+        "https://stonestreetcoffee.com/blogs/brooklyn-coffee-academy/an-a-to-z-glossary-of-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "mocha-bianco",
+      "name": "白摩卡",
+      "nameEn": "White Mocha / Mocha Bianco",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "白巧克力酱/融化白巧",
+          "amount": "2–3 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中放白巧酱，倒入 espresso 搅溶",
+        "倒入蒸汽牛奶",
+        "可加鲜奶油"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "咖啡馆常见特调；与星巴克白摩卡同构",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/caffe-mocha"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cafe-miel",
+      "name": "蜂蜜肉桂咖啡",
+      "nameEn": "Café Miel",
+      "ingredients": [
+        {
+          "item": "浓咖啡或 espresso",
+          "amount": "1–2 shots / 约 60–120 ml",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 150–200 ml",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "1–2 tsp",
+          "note": ""
+        },
+        {
+          "item": "肉桂粉",
+          "amount": "少许",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中蜂蜜+咖啡搅匀",
+        "倒入蒸汽牛奶",
+        "撒肉桂粉"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "咖啡馆菜单常见（café miel）",
+      "sourceUrls": [
+        "https://selectcoffeecrafters.com/blogs/news/the-names-of-different-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "dead-eye-coffee",
+      "name": "死眼咖啡",
+      "nameEn": "Dead Eye Coffee",
+      "ingredients": [
+        {
+          "item": "滴滤咖啡",
+          "amount": "约 8–12 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "3 shots",
+          "note": ""
+        }
+      ],
+      "method": [
+        "煮滴滤咖啡",
+        "倒入三份 espresso"
+      ],
+      "glass": "大马克杯",
+      "beanNote": "未写豆",
+      "source": "红眼/黑眼加强；网络咖啡馆用语",
+      "sourceUrls": [
+        "https://stonestreetcoffee.com/blogs/brooklyn-coffee-academy/an-a-to-z-glossary-of-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "chai-tea-latte-dirty",
+      "name": "脏脏印度奶茶拿铁",
+      "nameEn": "Dirty Chai Latte",
+      "ingredients": [
+        {
+          "item": "chai 浓缩/浓茶",
+          "amount": "约 1/2 cup",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1 shot",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 1 cup",
+          "note": ""
+        },
+        {
+          "item": "糖或蜂蜜",
+          "amount": "按口味",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中倒 chai 与 espresso",
+        "倒入蒸汽牛奶",
+        "按口味加甜"
+      ],
+      "glass": "马克杯",
+      "beanNote": "espresso 现萃",
+      "source": "咖啡馆 Dirty Chai 标准结构",
+      "sourceUrls": [
+        "https://createmindfully.com/iced-lavender-dirty-chai-latte/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-shaken-espresso-plain",
+      "name": "冰摇摇浓缩",
+      "nameEn": "Iced Shaken Espresso",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2–3 shots",
+          "note": ""
+        },
+        {
+          "item": "糖浆（可选）",
+          "amount": "1–2 tsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "约 1.5 cups",
+          "note": ""
+        },
+        {
+          "item": "少许水或奶顶",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "热 espresso 与糖浆搅溶",
+        "与冰同摇约 15–20 秒",
+        "倒入杯中，可少量水/奶补位"
+      ],
+      "glass": "高杯",
+      "beanNote": "浅烘 Blonde 常见",
+      "source": "Starbucks Shaken Espresso 家用路径",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-brown-sugar-oatmilk-shaken-espresso"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "coconut-cold-foam-cold-brew",
+      "name": "椰香冷奶盖冷萃",
+      "nameEn": "Coconut Cold Foam Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "3/4 cup",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "椰奶或椰奶油",
+          "amount": "约 1/3 cup",
+          "note": ""
+        },
+        {
+          "item": "糖浆",
+          "amount": "1 Tbsp 可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中冷萃+冰",
+        "椰奶（可加糖浆）冷打发铺顶"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "门店风植物奶冷奶盖变奏",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/vanilla-sweet-cream-cold-brew"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "maple-oat-latte",
+      "name": "枫糖燕麦拿铁",
+      "nameEn": "Maple Oat Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "燕麦奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "枫糖浆",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "espresso 搅入枫糖浆",
+        "打发燕麦奶倒入"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "季节咖啡馆常见",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/honey-almondmilk-flat-white"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "iced-frappe-nespresso",
+      "name": "冰法布奇诺风（Nespresso）",
+      "nameEn": "Iced Frappé (Nespresso)",
+      "ingredients": [
+        {
+          "item": "Vanilio 或自选胶囊",
+          "amount": "1 粒 / 约 40 ml",
+          "note": ""
+        },
+        {
+          "item": "冷牛奶 2.5%",
+          "amount": "约 100 ml / 3.38 oz",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "2 tsp 可选",
+          "note": ""
+        },
+        {
+          "item": "冰块",
+          "amount": "约 30 g / 1 oz",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃咖啡倒入搅拌壶",
+        "加糖、冷牛奶与冰",
+        "用 Barista 设备或摇壶搅打起泡",
+        "倒入配方杯"
+      ],
+      "glass": "配方玻璃杯",
+      "beanNote": "Vanilio 等风味胶囊",
+      "source": "Nespresso 官方 Iced Frappé",
+      "sourceUrls": [
+        "https://www.nespresso.com/recipes/us/en/23097ICE-iced-frappe.html"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "nespresso-iced-latte",
+      "name": "冰拿铁（Nespresso）",
+      "nameEn": "Iced Latte (Nespresso)",
+      "ingredients": [
+        {
+          "item": "Ristretto 或 Master Origin India",
+          "amount": "2 粒 espresso",
+          "note": ""
+        },
+        {
+          "item": "冷牛奶",
+          "amount": "适量",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃双份 espresso（约各 1.35 oz）",
+        "杯中倒冷牛奶",
+        "倒入咖啡，轻轻加冰"
+      ],
+      "glass": "高杯",
+      "beanNote": "产品线胶囊",
+      "source": "Nespresso 官方",
+      "sourceUrls": [
+        "https://www.nespresso.com/recipes/us/en/422ICE-iced-latte.html"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "lavazza-iced-latte",
+      "name": "冰拿铁（Lavazza）",
+      "nameEn": "Iced Latte (Lavazza)",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "牛奶",
+          "amount": "约 100 ml",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "适量",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与冷牛奶",
+        "倒入双份 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "Lavazza 拼配",
+      "source": "Lavazza 品牌官方",
+      "sourceUrls": [
+        "https://www.lavazzausa.com/en/recipes-and-coffee-hacks/iced-latte-recipe"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "kopi-susu-gula-aren",
+      "name": "印尼棕榈糖牛奶咖啡",
+      "nameEn": "Kopi Susu Gula Aren",
+      "ingredients": [
+        {
+          "item": "浓咖啡/espresso",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "炼乳或鲜奶",
+          "amount": "约 60–100 ml",
+          "note": ""
+        },
+        {
+          "item": "棕榈糖浆 gula aren",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "冰饮时满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中放棕榈糖浆",
+        "倒入咖啡搅溶",
+        "加奶（与冰，若冰饮）"
+      ],
+      "glass": "玻璃杯",
+      "beanNote": "印尼深烘常见",
+      "source": "东南亚咖啡馆常见配方结构",
+      "sourceUrls": [
+        "https://food.detik.com/info-kuliner/d-5031668/3-racikan-kopi-populer-di-dunia-ini-gampang-dibuat"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "white-coffee-ipoh-style",
+      "name": "怡保白咖啡风",
+      "nameEn": "Ipoh-style White Coffee",
+      "ingredients": [
+        {
+          "item": "白咖啡粉或中浅烘焙咖啡",
+          "amount": "约 2 Tbsp / 滤泡量",
+          "note": ""
+        },
+        {
+          "item": "热水",
+          "amount": "约 150–180 ml",
+          "note": ""
+        },
+        {
+          "item": "炼乳或淡奶",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "按口味",
+          "note": ""
+        }
+      ],
+      "method": [
+        "冲泡白咖啡（传统 margarine 烘焙风味粉或家用浅中烘）",
+        "加入炼乳/淡奶与糖搅匀"
+      ],
+      "glass": "马克杯",
+      "beanNote": "马来西亚白咖啡粉常见",
+      "source": "东南亚常见；与课料白咖啡叙事呼应",
+      "sourceUrls": [
+        "https://youthtimemag.com/bookmark-it-best-coffee-drink-recipes-from-all-over-the-world/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cafe-au-lait-french",
+      "name": "法式牛奶咖啡",
+      "nameEn": "Café au Lait",
+      "ingredients": [
+        {
+          "item": "滴滤/法压浓咖啡",
+          "amount": "约 1 份",
+          "note": ""
+        },
+        {
+          "item": "热牛奶（可轻蒸汽）",
+          "amount": "约 1 份",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "同时准备浓咖啡与热牛奶",
+        "大杯中约 1:1 混合"
+      ],
+      "glass": "大碗杯 / bol",
+      "beanNote": "未写豆",
+      "source": "Serious Eats 菜单释义 / 法式经典",
+      "sourceUrls": [
+        "https://www.seriouseats.com/translating-coffee-menus-different-names-for-coffee-plus-milk"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "breve-latte",
+      "name": "布雷卫拿铁",
+      "nameEn": "Caffè Breve",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "半半奶 half & half（蒸汽）",
+          "amount": "约 150–200 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "萃 espresso",
+        "蒸汽 half & half 倒入（比拿铁更厚重）"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "美式咖啡馆菜单常见",
+      "sourceUrls": [
+        "https://stonestreetcoffee.com/blogs/brooklyn-coffee-academy/an-a-to-z-glossary-of-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "gibraltar-coffee",
+      "name": "直布罗陀咖啡",
+      "nameEn": "Gibraltar",
+      "ingredients": [
+        {
+          "item": "双份 ristretto/espresso",
+          "amount": "约 60 ml",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约等量小杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "直布罗陀玻璃杯中倒入双份浓缩",
+        "倒入蒸汽牛奶至约满（类似 cortado 杯型出品）"
+      ],
+      "glass": "Gibraltar 玻璃杯",
+      "beanNote": "未写豆",
+      "source": "Blue Bottle 系菜单名；结构同 cortado",
+      "sourceUrls": [
+        "https://stonestreetcoffee.com/blogs/brooklyn-coffee-academy/an-a-to-z-glossary-of-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "piccolo-latte-twist-honey",
+      "name": "蜂蜜小拿铁",
+      "nameEn": "Honey Piccolo",
+      "ingredients": [
+        {
+          "item": "单份 ristretto",
+          "amount": "约 20–30 ml",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "1 tsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "小杯蜂蜜+ ristretto 搅匀",
+        "倒入蒸汽牛奶"
+      ],
+      "glass": "小玻璃杯",
+      "beanNote": "未写豆",
+      "source": "Piccolo 变奏",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/honey-almondmilk-flat-white"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "orange-espresso-affogato-twist",
+      "name": "香橙阿芙佳朵",
+      "nameEn": "Orange Affogato",
+      "ingredients": [
+        {
+          "item": "香草或橙子冰淇淋",
+          "amount": "1–2 勺",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "橙皮屑",
+          "amount": "少许",
+          "note": ""
+        },
+        {
+          "item": "可选橙酒",
+          "amount": "少许可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "碗中放冰淇淋",
+        "现萃 espresso 浇上",
+        "撒橙皮（可加少许橙酒）"
+      ],
+      "glass": "甜品碗",
+      "beanNote": "未写豆",
+      "source": "Affogato 变奏；Stone Street 变奏思路",
+      "sourceUrls": [
+        "https://stonestreetcoffee.com/blogs/brooklyn-coffee-academy/an-a-to-z-glossary-of-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "chocolate-affogato",
+      "name": "巧克力阿芙佳朵",
+      "nameEn": "Chocolate Affogato",
+      "ingredients": [
+        {
+          "item": "巧克力冰淇淋",
+          "amount": "1–2 勺",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "巧克力酱",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "碗中放巧克力冰淇淋",
+        "浇 espresso",
+        "可淋巧克力酱"
+      ],
+      "glass": "甜品碗",
+      "beanNote": "未写豆",
+      "source": "Affogato 变奏",
+      "sourceUrls": [
+        "https://stonestreetcoffee.com/blogs/brooklyn-coffee-academy/an-a-to-z-glossary-of-coffee-drinks"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "amaretto-coffee",
+      "name": "杏仁酒咖啡",
+      "nameEn": "Amaretto Coffee",
+      "ingredients": [
+        {
+          "item": "热咖啡",
+          "amount": "约 150 ml",
+          "note": ""
+        },
+        {
+          "item": "Amaretto",
+          "amount": "约 30–45 ml",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "顶部",
+          "note": ""
+        },
+        {
+          "item": "杏仁片",
+          "amount": "装饰可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中热咖啡+ Amaretto",
+        "顶部浮鲜奶油，可撒杏仁片"
+      ],
+      "glass": "热饮杯",
+      "beanNote": "未写豆",
+      "source": "咖啡鸡尾酒常见",
+      "sourceUrls": [
+        "https://beanthirst.com/caffe-corretto-recipe-a-tasty-coffee-cocktail/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "kahlua-coffee",
+      "name": "咖啡甜酒热咖",
+      "nameEn": "Kahlúa Coffee",
+      "ingredients": [
+        {
+          "item": "热咖啡",
+          "amount": "约 150–180 ml",
+          "note": ""
+        },
+        {
+          "item": "Kahlúa",
+          "amount": "约 30–50 ml",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "可选",
+          "note": ""
+        },
+        {
+          "item": "糖",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "热咖啡中加入 Kahlúa 搅匀",
+        "可加糖与鲜奶油"
+      ],
+      "glass": "热饮杯",
+      "beanNote": "无生豆；利口酒",
+      "source": "Allrecipes White Russian 同源利口酒热饮变体",
+      "sourceUrls": [
+        "https://www.allrecipes.com/recipe/85326/white-russian/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "americano-tonic",
+      "name": "美式通宁",
+      "nameEn": "Americano Tonic",
+      "ingredients": [
+        {
+          "item": "热水",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "汤力水",
+          "amount": "约 100 ml",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "柠檬",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与汤力水",
+        "可先倒少量热水或直接倒 espresso",
+        "柠檬装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "明亮豆",
+      "source": "通宁家族变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "rosemary-espresso-tonic",
+      "name": "迷迭香浓缩通宁",
+      "nameEn": "Rosemary Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "迷迭香枝",
+          "amount": "1 枝",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中可轻压迷迭香，加冰与汤力",
+        "倒入 espresso，迷迭香装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "Methodical Coffee 草本变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "vanilla-espresso-tonic",
+      "name": "香草浓缩通宁",
+      "nameEn": "Vanilla Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1/4–1/2 oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、香草糖浆与汤力",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "Methodical Coffee 糖浆变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "orange-bitters-tonic-coffee",
+      "name": "橙苦精浓缩通宁",
+      "nameEn": "Orange Bitters Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "橙苦精",
+          "amount": "几滴",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与汤力，滴入橙苦精",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "Methodical Coffee 苦精变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "lavender-espresso-tonic",
+      "name": "薰衣草浓缩通宁",
+      "nameEn": "Lavender Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "薰衣草糖浆",
+          "amount": "1/4–1/2 oz",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、薰衣草糖浆与汤力",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "花香豆",
+      "source": "Methodical Coffee 糖浆变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "blood-orange-espresso-tonic",
+      "name": "血橙浓缩通宁",
+      "nameEn": "Blood Orange Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "血橙汤力或汤力+血橙汁",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与血橙汤力/汁混合物",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "Methodical Coffee 柑橘汤力变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "mint-espresso-tonic",
+      "name": "薄荷浓缩通宁",
+      "nameEn": "Mint Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "新鲜薄荷",
+          "amount": "几片",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中轻压薄荷，加冰与汤力",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "Methodical Coffee 草本变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "star-anise-espresso-tonic",
+      "name": "八角浓缩通宁",
+      "nameEn": "Star Anise Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "八角",
+          "amount": "1 颗",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、汤力与八角",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "深烘也可",
+      "source": "Methodical Coffee 香料变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "coconut-espresso-tonic",
+      "name": "椰香浓缩通宁",
+      "nameEn": "Coconut Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水",
+          "amount": "约 4 oz",
+          "note": ""
+        },
+        {
+          "item": "椰汁或椰奶少许",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、汤力与少许椰汁",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸或坚果调豆",
+      "source": "通宁家族植物奶变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "ginger-espresso-tonic",
+      "name": "姜汁浓缩通宁",
+      "nameEn": "Ginger Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "汤力水或姜汁汽水",
+          "amount": "4–6 oz",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "柠檬片",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰与汤力/姜汁汽水",
+        "倒入 espresso，柠檬装饰"
+      ],
+      "glass": "高杯",
+      "beanNote": "明亮豆",
+      "source": "通宁家族姜味变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "hibiscus-cold-brew",
+      "name": "洛神花冷萃",
+      "nameEn": "Hibiscus Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "3/4 cup",
+          "note": ""
+        },
+        {
+          "item": "洛神花茶（放凉）",
+          "amount": "1/4 cup",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "蜂蜜",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、冷萃与洛神花茶",
+        "可加蜂蜜搅匀"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "果味冷萃变奏",
+      "sourceUrls": [
+        "https://doorcountycoffee.com/blog/15-cold-brew-coffee-recipes/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "vanilla-cold-brew",
+      "name": "香草冷萃",
+      "nameEn": "Vanilla Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "香草糖浆",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "奶或奶油",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中冷萃+香草糖浆+冰",
+        "可加奶"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "Door County 冷萃食谱合集路径",
+      "sourceUrls": [
+        "https://doorcountycoffee.com/blog/15-cold-brew-coffee-recipes/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "mocha-cold-brew",
+      "name": "摩卡冷萃",
+      "nameEn": "Mocha Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "3/4 cup",
+          "note": ""
+        },
+        {
+          "item": "巧克力糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "奶",
+          "amount": "约 1/4 cup",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中巧克力糖浆+冷萃搅匀",
+        "加冰与奶"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "Door County 冷萃合集路径",
+      "sourceUrls": [
+        "https://doorcountycoffee.com/blog/15-cold-brew-coffee-recipes/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cinnamon-cold-brew",
+      "name": "肉桂冷萃",
+      "nameEn": "Cinnamon Cold Brew",
+      "ingredients": [
+        {
+          "item": "冷萃",
+          "amount": "1 cup",
+          "note": ""
+        },
+        {
+          "item": "肉桂糖浆或肉桂粉",
+          "amount": "1 Tbsp / 少许",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "冷萃与肉桂糖浆搅匀，加冰",
+        "可撒肉桂粉"
+      ],
+      "glass": "高杯",
+      "beanNote": "冷萃",
+      "source": "冷萃季节变奏",
+      "sourceUrls": [
+        "https://doorcountycoffee.com/blog/15-cold-brew-coffee-recipes/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "orange-mocha",
+      "name": "香橙摩卡",
+      "nameEn": "Orange Mocha",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "巧克力酱",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "橙皮或橙糖浆",
+          "amount": "1 tsp / 按口味",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中巧克力酱+橙皮/糖浆+espresso 搅匀",
+        "倒入蒸汽牛奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "摩卡果味变奏",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/caffe-mocha"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "toasted-marshmallow-latte",
+      "name": "烤棉花糖拿铁",
+      "nameEn": "Toasted Marshmallow Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "棉花糖糖浆或融化棉花糖",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "烤棉花糖",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中糖浆/棉花糖+espresso",
+        "倒入蒸汽牛奶",
+        "顶部放烤棉花糖"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "季节特调常见",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "cookie-butter-latte",
+      "name": "饼干黄油拿铁",
+      "nameEn": "Cookie Butter Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "饼干黄油/speculoos 酱",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "饼干碎",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中饼干黄油+热 espresso 搅溶",
+        "倒入蒸汽牛奶",
+        "撒饼干碎"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "网红季节特调",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "brown-butter-latte",
+      "name": "褐黄油拿铁",
+      "nameEn": "Brown Butter Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1 shot",
+          "note": ""
+        },
+        {
+          "item": "焦黄油",
+          "amount": "约 1/2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 8 oz",
+          "note": ""
+        },
+        {
+          "item": "糖浆可选",
+          "amount": "按口味",
+          "note": ""
+        }
+      ],
+      "method": [
+        "焦黄油与 espresso 搅匀",
+        "倒入蒸汽牛奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "Pistachio Latte 焦黄油技法旁支",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/pistachio-latte"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "pandan-latte",
+      "name": "班兰拿铁",
+      "nameEn": "Pandan Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "班兰糖浆或班兰汁",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶（椰奶可）",
+          "amount": "约 200 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "班兰糖浆+espresso",
+        "倒入蒸汽奶/椰奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "东南亚特调",
+      "sourceUrls": [
+        "https://youthtimemag.com/bookmark-it-best-coffee-drink-recipes-from-all-over-the-world/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "gula-melaka-latte",
+      "name": "马六甲椰糖拿铁",
+      "nameEn": "Gula Melaka Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "马六甲椰糖浆",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶或椰奶",
+          "amount": "约 200 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "椰糖浆+espresso 搅匀",
+        "倒入蒸汽奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "马来西亚特调",
+      "sourceUrls": [
+        "https://youthtimemag.com/bookmark-it-best-coffee-drink-recipes-from-all-over-the-world/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "bandung-coffee",
+      "name": "班东玫瑰咖啡",
+      "nameEn": "Rose Bandung Coffee",
+      "ingredients": [
+        {
+          "item": "浓咖啡",
+          "amount": "约 100 ml",
+          "note": ""
+        },
+        {
+          "item": "玫瑰糖浆 bandung",
+          "amount": "约 30–50 ml",
+          "note": ""
+        },
+        {
+          "item": "炼乳或奶",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、玫瑰糖浆与奶",
+        "倒入浓咖啡"
+      ],
+      "glass": "高杯",
+      "beanNote": "未写豆",
+      "source": "马来/新加波饮品与咖啡结合",
+      "sourceUrls": [
+        "https://youthtimemag.com/bookmark-it-best-coffee-drink-recipes-from-all-over-the-world/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "mushroom-coffee-latte",
+      "name": "蘑菇咖啡拿铁",
+      "nameEn": "Mushroom Coffee Latte",
+      "ingredients": [
+        {
+          "item": "蘑菇咖啡粉或浓缩",
+          "amount": "按产品 1 份",
+          "note": ""
+        },
+        {
+          "item": "热水",
+          "amount": "按产品",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 150–200 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "按产品冲泡蘑菇咖啡基底",
+        "倒入蒸汽牛奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "功能性咖啡粉",
+      "source": "品牌产品常见冲泡",
+      "sourceUrls": [
+        "https://www.bulletproof.com/recipes/bulletproof-diet-recipes/bulletproof-coffee-recipe/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "collagen-coffee",
+      "name": "胶原蛋白咖啡",
+      "nameEn": "Collagen Coffee",
+      "ingredients": [
+        {
+          "item": "热咖啡",
+          "amount": "8–12 oz",
+          "note": ""
+        },
+        {
+          "item": "胶原蛋白肽粉",
+          "amount": "1 scoop 按产品",
+          "note": ""
+        },
+        {
+          "item": "可选 MCT/黄油",
+          "amount": "1 Tbsp",
+          "note": ""
+        }
+      ],
+      "method": [
+        "热咖啡中搅入胶原蛋白粉至溶解",
+        "可按防弹咖啡再加 MCT 搅打"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "Bulletproof 生态旁支",
+      "sourceUrls": [
+        "https://www.bulletproof.com/recipes/bulletproof-diet-recipes/bulletproof-coffee-recipe/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "salted-butterscotch-latte",
+      "name": "咸奶油糖拿铁",
+      "nameEn": "Salted Butterscotch Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "奶油糖/黄油糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "海盐",
+          "amount": " pinch",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        }
+      ],
+      "method": [
+        "糖浆+盐+espresso",
+        "倒入蒸汽牛奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "季节甜咸特调",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "toffee-nut-latte",
+      "name": "太妃坚果拿铁",
+      "nameEn": "Toffee Nut Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "太妃坚果糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "鲜奶油",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "糖浆+espresso",
+        "倒入蒸汽牛奶，可加鲜奶油"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "星巴克风味糖浆特调结构",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/salted-caramel-mocha"
+      ],
+      "credibility": "品牌官方",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "chestnut-praline-latte",
+      "name": "板栗糖拿铁",
+      "nameEn": "Chestnut Praline Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "板栗糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "糖渍坚果碎",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "糖浆+espresso",
+        "倒入蒸汽牛奶，撒坚果碎"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "季节限定结构复刻",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "caramel-brulee-latte",
+      "name": "焦糖布蕾拿铁",
+      "nameEn": "Caramel Brûlée Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "焦糖布蕾糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "焦糖碎",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "糖浆+espresso",
+        "倒入蒸汽牛奶，撒焦糖碎"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "季节限定结构复刻",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "sugar-cookie-latte",
+      "name": "糖霜饼干拿铁",
+      "nameEn": "Sugar Cookie Latte",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "糖霜饼干风味糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "蒸汽牛奶",
+          "amount": "约 200 ml",
+          "note": ""
+        },
+        {
+          "item": "糖霜装饰",
+          "amount": "可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "糖浆+espresso",
+        "倒入蒸汽牛奶"
+      ],
+      "glass": "马克杯",
+      "beanNote": "未写豆",
+      "source": "节日特调复刻",
+      "sourceUrls": [
+        "https://coffeeatthree.com/best-starbucks-copycat-recipes/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "apple-crisp-oat-macchiato",
+      "name": "苹果脆燕麦玛奇朵",
+      "nameEn": "Apple Crisp Oatmilk Macchiato",
+      "ingredients": [
+        {
+          "item": "espresso",
+          "amount": "2 shots",
+          "note": ""
+        },
+        {
+          "item": "苹果风味糖浆",
+          "amount": "2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "燕麦奶",
+          "amount": "约 0.75 cup",
+          "note": ""
+        },
+        {
+          "item": "冰或热",
+          "amount": "按版本",
+          "note": ""
+        },
+        {
+          "item": "燕麦碎/肉桂",
+          "amount": "装饰",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中糖浆+燕麦奶（+冰）",
+        "倒入 espresso",
+        "撒肉桂/燕麦碎"
+      ],
+      "glass": "高杯",
+      "beanNote": "未写豆",
+      "source": "星巴克季节饮结构复刻",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-caramel-macchiato"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-milk-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-milk-twist"
+      ]
+    },
+    {
+      "id": "peach-juice-coffee",
+      "name": "水蜜桃果汁咖啡",
+      "nameEn": "Peach Juice Coffee",
+      "ingredients": [
+        {
+          "item": "浓咖啡或冷萃",
+          "amount": "约 100 ml",
+          "note": ""
+        },
+        {
+          "item": "桃汁",
+          "amount": "约 100 ml",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        },
+        {
+          "item": "气泡水",
+          "amount": "少许可选",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、桃汁与咖啡",
+        "可加少许气泡水"
+      ],
+      "glass": "高杯",
+      "beanNote": "未写豆",
+      "source": "果味特调",
+      "sourceUrls": [
+        "https://athome.starbucks.com/recipe/iced-coffee-lemonade"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "watermelon-espresso-tonic",
+      "name": "西瓜浓缩通宁",
+      "nameEn": "Watermelon Espresso Tonic",
+      "ingredients": [
+        {
+          "item": "西瓜汁",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "汤力水",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、西瓜汁与汤力",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "夏日通宁变奏",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "pineapple-espresso-soda",
+      "name": "菠萝浓缩苏打",
+      "nameEn": "Pineapple Espresso Soda",
+      "ingredients": [
+        {
+          "item": "菠萝汁",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "气泡水",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、菠萝汁与气泡水",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果酸豆",
+      "source": "热带果味特调",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "lychee-espresso-soda",
+      "name": "荔枝浓缩苏打",
+      "nameEn": "Lychee Espresso Soda",
+      "ingredients": [
+        {
+          "item": "荔枝汁或糖浆+水",
+          "amount": "约 60–90 ml",
+          "note": ""
+        },
+        {
+          "item": "气泡水",
+          "amount": "约 60 ml",
+          "note": ""
+        },
+        {
+          "item": "espresso",
+          "amount": "1–2 shots",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "杯中加冰、荔枝汁与气泡水",
+        "倒入 espresso"
+      ],
+      "glass": "高杯",
+      "beanNote": "果香豆",
+      "source": "亚洲果味特调",
+      "sourceUrls": [
+        "https://methodicalcoffee.com/blogs/coffee-culture/the-perfect-at-home-espresso-tonic-recipe-with-variations"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "calamansi-coffee",
+      "name": "菲律宾酸柑咖啡",
+      "nameEn": "Calamansi Coffee",
+      "ingredients": [
+        {
+          "item": "热或冰咖啡",
+          "amount": "约 150 ml",
+          "note": ""
+        },
+        {
+          "item": "calamansi 汁",
+          "amount": "1–2 Tbsp",
+          "note": ""
+        },
+        {
+          "item": "炼乳或糖",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "冰饮时",
+          "note": ""
+        }
+      ],
+      "method": [
+        "咖啡中加 calamansi 汁与甜味搅匀",
+        "冰饮加冰"
+      ],
+      "glass": "杯",
+      "beanNote": "未写豆",
+      "source": "菲律宾家常特调",
+      "sourceUrls": [
+        "https://youthtimemag.com/bookmark-it-best-coffee-drink-recipes-from-all-over-the-world/"
+      ],
+      "credibility": "网络食谱",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    },
+    {
+      "id": "barako-brew-ph",
+      "name": "菲律宾巴拉科冰咖",
+      "nameEn": "Barako Iced Coffee",
+      "ingredients": [
+        {
+          "item": "Barako/Liberica 浓咖啡",
+          "amount": "约 100–150 ml",
+          "note": ""
+        },
+        {
+          "item": "糖或炼乳",
+          "amount": "按口味",
+          "note": ""
+        },
+        {
+          "item": "冰",
+          "amount": "满杯",
+          "note": ""
+        }
+      ],
+      "method": [
+        "煮浓 Barako 咖啡放凉",
+        "加甜味倒入冰杯"
+      ],
+      "glass": "高杯",
+      "beanNote": "Liberica Barako",
+      "source": "菲律宾特调",
+      "sourceUrls": [
+        "https://youthtimemag.com/bookmark-it-best-coffee-drink-recipes-from-all-over-the-world/"
+      ],
+      "credibility": "媒体",
+      "labelHint": "modern-espresso-twist",
+      "batch": "008",
+      "labelIds": [
+        "modern-espresso-twist"
+      ]
+    }
+  ],
+  "removedWeak008": [
+    "black-eye-coffee",
+    "cardamom-espresso-nespresso",
+    "oriental-cappuccino-nespresso",
+    "raspberry-latte-macchiato-nespresso",
+    "mexican-fiesta-nespresso",
+    "fizzy-india-nespresso",
+    "cinnamon-brown-sugar-cortado-nes",
+    "irish-mocha-nespresso",
+    "chocolat-viennois-nespresso",
+    "magic-coffee-melbourne",
+    "long-black-aussie",
+    "espresso-on-ice-macchiato-nes",
+    "thyme-grapefruit-ethiopia",
+    "indonesia-chocolate-macchiato-nes",
+    "nicaragua-banana-sweet-nes",
+    "colombian-passioccino",
+    "miso-caramel-latte",
+    "olive-oil-espresso",
+    "sesame-latte",
+    "taro-latte-coffee",
+    "avocado-coffee-vn",
+    "egg-coffee-hanoi",
+    "yogurt-coffee-vn",
+    "coconut-vietnamese-coffee",
+    "birch-syrup-latte",
+    "halva-latte",
+    "date-latte",
+    "saffron-latte",
+    "turmeric-coffee"
+  ]
+}

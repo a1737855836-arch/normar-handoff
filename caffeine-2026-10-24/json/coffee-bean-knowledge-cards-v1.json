@@ -1,0 +1,1651 @@
+{
+  "meta": {
+    "task": "COFFEE-013",
+    "title": "咖啡豆知识点卡 v1",
+    "date": "2026-10-24",
+    "timezone": "Asia/Shanghai",
+    "cardType": "knowledge",
+    "reproducibleRecipe": false,
+    "labels": {
+      "bean-select": "Selection选取",
+      "bean-roast": "Roast烘焙",
+      "bean-process": "Process发酵处理",
+      "bean-storage": "Storage储存"
+    },
+    "counts": {
+      "bean-select": 12,
+      "bean-roast": 8,
+      "bean-process": 11,
+      "bean-storage": 8,
+      "total_cards": 38,
+      "note": "季风双挂同时计入 process+storage；total_cards 为卡片张数非 label 次数之和"
+    },
+    "notes": "首版短卡；不交 Codex。乙醇库分开。白咖啡/季风按 COFFEE-007 强制口径。"
+  },
+  "cards": [
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普（NCA）",
+      "id": "process-washed",
+      "name": "水洗",
+      "nameEn": "Washed",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "去皮后发酵软化果胶，再冲洗、干燥；豆面只留羊皮纸进入干燥。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "偏干净、酸质清晰，常突出产地与品种本身。"
+        },
+        {
+          "item": "检查要点",
+          "amount": "",
+          "note": "包装若写 Fully Washed / Wet Process，通常指有冲洗槽分选密度的线路。"
+        }
+      ],
+      "method": [
+        "理解：果肉去掉后靠发酵溶解 mucilage，再用水洗掉，干燥时不带整果。",
+        "对照杯感：干净度、酸清晰度是否高于同产区日晒。",
+        "勿与「半水洗/蜜处理」混读：蜜处理去皮后通常不经完整水洗槽。"
+      ],
+      "notes": "COFFEE-004 P01；首版必上。",
+      "source": "NCA About Coffee · Processes",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/processes/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会 + 烘焙商科普",
+      "id": "process-natural",
+      "name": "日晒（干法）",
+      "nameEn": "Natural / Dry Process",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "整颗樱桃带果肉干燥后再脱壳；英语亦称 dry-process / cherry-dried。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "偏甜、果香、酒感更重；干燥管理差则易过酵或瑕疵。"
+        },
+        {
+          "item": "风险",
+          "amount": "",
+          "note": "熟度不齐的樱桃混晒会放大批次不一致。"
+        }
+      ],
+      "method": [
+        "理解：整果干燥至约 11% 含水再脱壳，非「未处理」。",
+        "检查：日晒≠一定更甜；看干燥场地、翻耙与挑熟。",
+        "与季风区分：季风是日晒樱桃豆之后的海岸高湿仓暴露。"
+      ],
+      "notes": "COFFEE-004 P02。",
+      "source": "NCA Processes · Peet's processing overview",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/processes/",
+        "https://www.peets.com/blogs/peets/washed-natural-wet-hulled-coffee-processing"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会 + 生豆商",
+      "id": "process-honey",
+      "name": "蜜处理",
+      "nameEn": "Honey Process",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "去皮后保留部分果胶（mucilage）干燥；「蜜」指粘性果胶质地，并非加蜂蜜。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "保留果胶越多通常越甜、越接近日晒；少则更靠近水洗干净。"
+        },
+        {
+          "item": "近义词",
+          "amount": "",
+          "note": "英语里常与 pulped natural / semi-washed 近义互换（见独立卡）。"
+        }
+      ],
+      "method": [
+        "理解：半干法族——去皮、不（或少）走完整水洗槽。",
+        "检查：看卖家是否标明留胶量/颜色档；勿写死全球标准。"
+      ],
+      "notes": "COFFEE-004 P03。",
+      "source": "NCA · Semi-Washed or Honey · Sustainable Harvest",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/processes/",
+        "https://www.sustainableharvest.com/blog/understanding-coffee-processing-the-traditional-methods"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "生豆商术语梳理",
+      "id": "process-honey-colors",
+      "name": "蜜处理颜色档",
+      "nameEn": "Honey Color Grades (White/Yellow/Red/Black)",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "白/黄蜜 White/Yellow",
+          "amount": "",
+          "note": "果胶较少，更靠近水洗的干净。"
+        },
+        {
+          "item": "红/黑蜜 Red/Black",
+          "amount": "",
+          "note": "果胶较多，更甜、更重，有时偏酒感。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "行业常用提示，命名未全球统一；勿当法定色标。"
+        }
+      ],
+      "method": [
+        "理解：颜色大致对应干燥时残留 mucilage 多寡。",
+        "检查：同一产区不同庄园的「红蜜」可能不对齐；以杯测为准。"
+      ],
+      "notes": "COFFEE-004 P03a/P03b；短卡提示性。",
+      "source": "Royal Coffee · Honey colors · Sustainable Harvest",
+      "sourceUrls": [
+        "https://royalcoffee.com/coffee-processing-styles-and-terminology-plus-flowchart/",
+        "https://www.sustainableharvest.com/blog/understanding-coffee-processing-the-traditional-methods"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "生豆商",
+      "id": "process-pulped-natural",
+      "name": "去皮日晒 / 半水洗",
+      "nameEn": "Pulped Natural / Semi-washed",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "去皮后基本不经水洗槽、带果胶干燥；巴西「pulped natural」历史更早。"
+        },
+        {
+          "item": "与蜜处理",
+          "amount": "",
+          "note": "实践上常与 honey 近义；英语 semi-washed 已较少用。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "介于水洗干净与日晒果香之间，视留胶量而定。"
+        }
+      ],
+      "method": [
+        "理解：术语重叠是行业常态，不要当成三种互斥物理流程。",
+        "检查：看产地语境（巴西 pulped natural vs 中美 honey）。"
+      ],
+      "notes": "COFFEE-004 P04；Obsidian 争议「半水洗与蜜处理重叠」选题对齐。",
+      "source": "Royal Coffee terminology flowchart",
+      "sourceUrls": [
+        "https://royalcoffee.com/coffee-processing-styles-and-terminology-plus-flowchart/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "烘焙商 + 生豆商",
+      "id": "process-wet-hulled",
+      "name": "湿刨",
+      "nameEn": "Wet-hulled / Giling Basah",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "印尼（苏门答腊等）常见：羊皮纸尚潮湿时即脱壳再干燥。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "厚重、草本/泥土感、酸较低。"
+        },
+        {
+          "item": "语境",
+          "amount": "",
+          "note": "常接在较短水洗/发酵之后，再湿态脱壳。"
+        }
+      ],
+      "method": [
+        "理解：关键是「潮湿羊皮纸阶段脱壳」，非普通水洗终点。",
+        "检查：包装写 Giling Basah / Wet-hulled 时，杯感预期向低酸厚体。"
+      ],
+      "notes": "COFFEE-004 P05。",
+      "source": "Peet's · Wet-Hulled · Royal Coffee",
+      "sourceUrls": [
+        "https://www.peets.com/blogs/peets/washed-natural-wet-hulled-coffee-processing",
+        "https://royalcoffee.com/coffee-processing-styles-and-terminology-plus-flowchart/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "生豆商术语",
+      "id": "process-anaerobic",
+      "name": "厌氧发酵",
+      "nameEn": "Anaerobic Fermentation",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "密封低氧罐内发酵（整果或去皮后皆可）；术语宽泛。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "常出强烈果香/酯香；批次差异大。"
+        },
+        {
+          "item": "必问",
+          "amount": "",
+          "note": "整果还是去皮、时长、温度、是否浸水。"
+        }
+      ],
+      "method": [
+        "理解：厌氧是环境描述，不是与水洗/日晒并列的单一固定流程。",
+        "检查：向卖家要工艺细节；勿把「厌氧」当风味保证。"
+      ],
+      "notes": "COFFEE-004 P06；首版概念卡。进阶见 P07–P09。",
+      "source": "Royal Coffee · Anaerobic & Carbonic",
+      "sourceUrls": [
+        "https://royalcoffee.com/coffee-processing-styles-and-terminology-plus-flowchart/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "从业者 + 生豆商",
+      "id": "process-carbonic-maceration",
+      "name": "二氧化碳浸渍",
+      "nameEn": "Carbonic Maceration",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "借用酿酒术语：整果入密封罐并营造富 CO₂ 环境。"
+        },
+        {
+          "item": "背景",
+          "amount": "",
+          "note": "2015 WBC（Sasa Sestic）用水洗型 CM 豆夺冠后在精品圈普及。"
+        },
+        {
+          "item": "与厌氧",
+          "amount": "",
+          "note": "实践上常整果密封；与宽泛「厌氧」标签有重叠。"
+        }
+      ],
+      "method": [
+        "理解：优先看「整果密封 + CO₂ 语境」，勿死记营销名。",
+        "进阶卡：首版可浏览，不要求门店必背。"
+      ],
+      "notes": "COFFEE-004 P07 · 进阶。",
+      "source": "Sasa Sestic · Fermentation · Royal Coffee",
+      "sourceUrls": [
+        "https://sasasestic.com.au/fermentation-affect-coffee-flavour-development/",
+        "https://royalcoffee.com/coffee-processing-styles-and-terminology-plus-flowchart/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "生豆商",
+      "id": "process-lactic",
+      "name": "乳酸向（厌氧子标签）",
+      "nameEn": "Lactic (Anaerobic Sub-label)",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "低氧环境中乳酸菌更易占优时的描述标签，非独立物理流程。"
+        },
+        {
+          "item": "挂靠",
+          "amount": "",
+          "note": "宜挂在厌氧条下作备注，勿与水洗/日晒并列。"
+        }
+      ],
+      "method": [
+        "理解：感官/微生物倾向描述，不是第三种「处理法大类」。",
+        "检查：若包装只写 Lactic 无细节，按厌氧概念卡追问工艺。"
+      ],
+      "notes": "COFFEE-004 P08 · 进阶。",
+      "source": "Royal Coffee · lactic note",
+      "sourceUrls": [
+        "https://royalcoffee.com/coffee-processing-styles-and-terminology-plus-flowchart/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "生豆商 ebook + 项目站",
+      "id": "process-yeast-inoculated",
+      "name": "酵母接种",
+      "nameEn": "Yeast-inoculated Fermentation",
+      "labelIds": [
+        "bean-process"
+      ],
+      "labelNames": [
+        "Process发酵处理"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "人为接种选定酵母以稳定发酵路径；批次与菌种差异大。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "仅概念卡；不写具体菌种剂量或操作手册。"
+        }
+      ],
+      "method": [
+        "理解：可控发酵族的一条分支，非大众必选项。",
+        "进阶：首版浏览即可。"
+      ],
+      "notes": "COFFEE-004 P09 · 进阶。PDF ebook 作辅证。",
+      "source": "Royal Coffee fermentation continuum · The Fermentation Project",
+      "sourceUrls": [
+        "https://cdn.royalcoffee.com/wp-content/uploads/2024/02/23065937/The-coffee-fermentation-flavor-continuum-ebook.pdf?variation=A",
+        "https://www.thefermentationproject.com/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": "昔日木船海运潮湿舱底导致胀豆降酸，今日以季风仓复刻。",
+      "credibility": "产国官方 + 行业长文 + 加工商",
+      "id": "bean-monsoon-malabar",
+      "name": "季风马拉巴",
+      "nameEn": "Monsooned Malabar",
+      "labelIds": [
+        "bean-process",
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Process发酵处理",
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "印度西海岸：优质日晒樱桃豆在西南季风季通风仓暴露约 12–16 周，豆体胀大、色转淡黄，酸度大幅下降。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "酸低、body 重，常带泥土、坚果、巧克力、焦糖向；多用于拼配柔化偏酸豆。"
+        },
+        {
+          "item": "双挂理由",
+          "amount": "",
+          "note": "后处理工艺 + 气候仓储暴露；非罐内厌氧。"
+        }
+      ],
+      "method": [
+        "理解：原料须为 Cherry（日晒豆）A 级语境；六月至九月西海岸季风仓。",
+        "对照：区别于普通日晒（无数月高湿仓）与水洗（非 Cherry 线路）。",
+        "检查：官方称谓 Monsooned Malabar AA 等见印度咖啡局。"
+      ],
+      "notes": "对齐 COFFEE-007；双挂强制。课料 K-P02 仅辅证不单独建库。",
+      "source": "Coffee Board of India · Barista Magazine · NKG India",
+      "sourceUrls": [
+        "https://coffeeboard.gov.in/Specialitycoffee.aspx",
+        "https://www.baristamagazine.com/understanding-the-process-monsoon-coffee/",
+        "https://nkgindiacoffee.com/monsooned-malabar/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "select-arabica-robusta",
+      "name": "阿拉比卡与罗布斯塔",
+      "nameEn": "Arabica & Robusta",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "Arabica 阿拉比卡",
+          "amount": "",
+          "note": "约占全球产量约 57%；较高海拔、温和气候；豆形偏扁长；咖啡因较低；杯感常更细腻芳香。"
+        },
+        {
+          "item": "Robusta 罗布斯塔",
+          "amount": "",
+          "note": "约占约 43%；低海拔更耐热耐病；豆更圆小；咖啡因约高 50–60%；常用于拼配与速溶。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "勿绝对化「Arabica 一定好喝 / Robusta 一定差」。"
+        }
+      ],
+      "method": [
+        "理解：这是种属（species）层，不是处理法或烘焙度。",
+        "检查：意式拼配常含 Robusta 增 crema/body；单品精品多为 Arabica。"
+      ],
+      "notes": "Obsidian 争议「Arabica与Robusta风味绝对化」→ notes 提醒勿绝对化。",
+      "source": "NCA About Coffee · Varieties",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/varieties/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会提及 + 厂商叙事",
+      "id": "select-liberica",
+      "name": "利比里卡",
+      "nameEn": "Liberica",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "Coffea liberica：商业占比远小于 Arabica/Robusta，但在马来西亚等产区有文化地位（如白咖啡拼配组分）。"
+        },
+        {
+          "item": "杯感提示",
+          "amount": "",
+          "note": "常描述为木质、果香、余韵长；批次差异大。"
+        }
+      ],
+      "method": [
+        "理解：种属第三条常见入口，不作百科全书。",
+        "交叉：白咖啡厂商故事中可能出现 Liberica 组分（见 roast-white-coffee）。"
+      ],
+      "notes": "短钉；不上产地全书。",
+      "source": "NCA Varieties（提及 Liberica）· OldTown our-story（拼配语境）",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/varieties/",
+        "https://www.oldtown.com.my/our-story/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "select-blend-vs-single",
+      "name": "拼配与单品",
+      "nameEn": "Blend vs Single Origin",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "Single Origin 单品",
+          "amount": "",
+          "note": "来自单一农场/产区/国家，强调可辨识风味与产地感。"
+        },
+        {
+          "item": "Blend 拼配",
+          "amount": "",
+          "note": "多来源组合，追求稳定风味、季节可用与意式平衡。"
+        },
+        {
+          "item": "决策",
+          "amount": "",
+          "note": "选豆决策层；非处理法。"
+        }
+      ],
+      "method": [
+        "理解：单品≠一定更好；拼配≠廉价。",
+        "检查：标签「单一产地」粒度（庄园 vs 国别）要读清。"
+      ],
+      "notes": "对齐 COFFEE-004 相邻维度；Obsidian「拼配与单品」。",
+      "source": "NCA Varieties（single-origin / terroir）",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/varieties/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会 + 产国机构",
+      "id": "select-origin-altitude",
+      "name": "产地与海拔入门",
+      "nameEn": "Origin & Altitude Intro",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "土壤、气候、日照、海拔合称风土（terroir），影响密度与酸甜结构。"
+        },
+        {
+          "item": "海拔",
+          "amount": "",
+          "note": "优质 Arabica 常与较高海拔关联（约 2000–6000 ft 量级，视纬度而变）；勿绝对「越高越好」。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "一条一主题短卡；不做国别百科。"
+        }
+      ],
+      "method": [
+        "理解：海拔影响成熟速度与豆密度，进而影响烘焙与萃取窗口。",
+        "检查：同海拔不同微气候仍可大不同；读庄园/产区信息而非只看米数。"
+      ],
+      "notes": "Obsidian 争议「海拔越高越好」→ 正文已去绝对化。",
+      "source": "NCA Varieties · Coffee Board High Grown",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/varieties/",
+        "https://coffeeboard.gov.in/Specialitycoffee.aspx"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会",
+      "id": "select-defects-intro",
+      "name": "瑕疵豆识别入门",
+      "nameEn": "Green Coffee Defects Intro",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "生豆物理瑕疵（全黑、酸豆、虫蛀、破碎、未熟等）按类别计入 full defect。"
+        },
+        {
+          "item": "精品门槛（历史 SCA 口径）",
+          "amount": "",
+          "note": "Specialty Grade：350g 样中 Category 1 = 0，Category 2 full defects ≤ 5（旧 GACCS/Defect Handbook 语境；SCA 正转向 CVA）。"
+        },
+        {
+          "item": "杯感风险",
+          "amount": "",
+          "note": "严重瑕疵可带来霉、酵、酚、草木等负向风味。"
+        }
+      ],
+      "method": [
+        "理解：挑豆是选豆质量门槛，不是风味加分项。",
+        "检查：家用可用浅色盘挑明显黑豆/碎豆/异物；专业分级需训练。",
+        "备注：措辞待 SCA CVA 深化后再修订（对齐 Obsidian 冻结提示）。"
+      ],
+      "notes": "短卡入门；不做瑕疵分卡全量镜像。",
+      "source": "SCA Coffee Value Assessment · SCA News on green grading",
+      "sourceUrls": [
+        "https://sca.coffee/value-assessment",
+        "https://sca.coffee/sca-news/25/issue-24-grounding-green-grading-2btb6"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会 + 产国机构",
+      "id": "select-harvest-ripeness",
+      "name": "采收成熟度入门",
+      "nameEn": "Harvest Ripeness",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "只采充分成熟樱桃可提升糖分与一致性；未熟/过熟混采会伤害杯感与干燥管理。"
+        },
+        {
+          "item": "与处理法",
+          "amount": "",
+          "note": "日晒对成熟度更敏感（NCA：熟度不齐易导致批次不一致）。"
+        },
+        {
+          "item": "浮选",
+          "amount": "",
+          "note": "水洗线路常用浮选去掉轻豆/未熟。"
+        }
+      ],
+      "method": [
+        "理解：采收是杯感起点，后面处理无法完全「救」未熟批次。",
+        "检查：问产地是否手选成熟果 vs 机械条采（巴西等语境）。"
+      ],
+      "notes": "对齐 Obsidian「采收成熟度入门」。",
+      "source": "NCA Processes（ripe vs unripe）· Coffee Board selective harvesting",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/processes/",
+        "https://coffeeboard.gov.in/Specialitycoffee.aspx"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "select-green-vs-roasted",
+      "name": "生豆与熟豆",
+      "nameEn": "Green vs Roasted Coffee",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "Green 生豆",
+          "amount": "",
+          "note": "硬、草香；可较长储存而不像熟豆那样快速失芳。"
+        },
+        {
+          "item": "Roasted 熟豆",
+          "amount": "",
+          "note": "烘焙解锁香气与可溶性；含水大幅下降，开始进入排气与失鲜时钟。"
+        }
+      ],
+      "method": [
+        "理解：选购「生豆」与「熟豆」决策完全不同（仓储 vs 烘焙日期）。",
+        "交叉：储存细则见 bean-storage；养豆见 bean-roast。"
+      ],
+      "notes": "",
+      "source": "NCA Roasts",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "产国机构 + 协会",
+      "id": "select-specialty-vs-commodity",
+      "name": "精品与商品咖啡入门",
+      "nameEn": "Specialty vs Commodity Coffee",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "Specialty 精品",
+          "amount": "",
+          "note": "强调可追溯产地、严格挑豆与杯测区分度；印度咖啡局亦列 specialty 类别（有机、高海拔、庄园等）。"
+        },
+        {
+          "item": "Commodity 商品豆",
+          "amount": "",
+          "note": "交易所大宗规格，追求稳定供应与价格，风味区分度通常较低。"
+        }
+      ],
+      "method": [
+        "理解：精品≠某一烘焙品牌商标；是质量与可追溯语境。",
+        "检查：看缺陷、杯测、产地信息是否可核验，而非只看包装词。"
+      ],
+      "notes": "短卡；不做第三波史论。",
+      "source": "Coffee Board of India Specialty · SCA Value Assessment",
+      "sourceUrls": [
+        "https://coffeeboard.gov.in/Specialitycoffee.aspx",
+        "https://sca.coffee/value-assessment"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "select-coffee-belt",
+      "name": "咖啡带",
+      "nameEn": "Coffee Belt",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "全球商业咖啡主产大致落在南北回归线之间的「咖啡带」。"
+        },
+        {
+          "item": "用途",
+          "amount": "",
+          "note": "地理入门钉；不展开各国全书。"
+        }
+      ],
+      "method": [
+        "理解：带内仍有巨大气候差异；纬度影响最适海拔。",
+        "检查：读产国卡时先定位是否在咖啡带典型产区。"
+      ],
+      "notes": "产地钉入口；国别卡 Obsidian 有、本 Normar 首版不镜像。",
+      "source": "NCA What is coffee / Varieties growing locations",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/origins/what-is-coffee/",
+        "https://www.aboutcoffee.org/beans/varieties/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "种质研究机构",
+      "id": "select-gesha",
+      "name": "瑰夏 / 艺伎",
+      "nameEn": "Gesha / Geisha",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "埃塞种质相关品种；巴拿马 Geisha（CATIE T2722 系）以高海拔精致花香、茉莉/桃感闻名。"
+        },
+        {
+          "item": "拼写",
+          "amount": "",
+          "note": "Geisha / Gesha 常互换；行业与种质库拼写史不同。"
+        },
+        {
+          "item": "警示",
+          "amount": "",
+          "note": "市面「Geisha」名可能套用在遗传上不同的材料；勿只看名字。"
+        }
+      ],
+      "method": [
+        "理解：品种钉，不是产国百科。",
+        "检查：优先看庄园、海拔与遗传可追溯，而非拍卖传奇故事整包粘贴。"
+      ],
+      "notes": "品种少量钉之一；不做 160 篇品种镜像。",
+      "source": "World Coffee Research · Geisha (Panama)",
+      "sourceUrls": [
+        "https://varieties.worldcoffeeresearch.org/varieties/geisha-panama"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "select-common-cultivars",
+      "name": "常见阿拉比卡品种钉",
+      "nameEn": "Common Arabica Cultivars (Typica/Bourbon/Caturra…)",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "入口名",
+          "amount": "",
+          "note": "Typica、Bourbon、Caturra、Catuai、SL28 等为常见栽培种/选系入口。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "一条总览钉；各品种细节留 Obsidian，不整包进 Normar。"
+        },
+        {
+          "item": "杯感",
+          "amount": "",
+          "note": "品种只是风味潜力之一；海拔、处理、烘焙权重同样大。"
+        }
+      ],
+      "method": [
+        "理解：NCA 列举的流行名是入门标签，不是完整系谱。",
+        "延后：Gesha 已单独钉；其余品种 Obsidian 多出的未镜像。"
+      ],
+      "notes": "宁少勿滥。",
+      "source": "NCA Varieties · Popular varieties",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/varieties/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会讨论 + FAO 附录（历史分级语境）",
+      "id": "select-quaker",
+      "name": "Quaker（未熟烘后豆）",
+      "nameEn": "Quaker (Underripe After Roast)",
+      "labelIds": [
+        "bean-select"
+      ],
+      "labelNames": [
+        "Selection选取"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "烘焙后仍显苍白、未充分上色的豆，常与生豆未熟相关。"
+        },
+        {
+          "item": "风险",
+          "amount": "",
+          "note": "可带来花生壳、纸板、尖酸等负向；精品旧标准常限制 Quaker 数量。"
+        }
+      ],
+      "method": [
+        "检查：浅色盘挑烘焙后明显浅色豆；大量出现应回溯生豆挑拣与采收。",
+        "理解：是选豆/瑕疵交叉钉，不是烘焙度问题。"
+      ],
+      "notes": "对齐 Obsidian Quaker；短钉。",
+      "source": "SCA green grading context (specialty limits) · FAO annex historical grades",
+      "sourceUrls": [
+        "https://sca.coffee/sca-news/25/issue-24-grounding-green-grading-2btb6",
+        "https://www.fao.org/4/X6939E/X6939e13.htm"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "roast-spectrum",
+      "name": "烘焙度谱",
+      "nameEn": "Roast Spectrum (Light/Medium/Dark)",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "浅烘 Light",
+          "amount": "",
+          "note": "浅棕、表面无油；更保留产地酸甜与品种特征。"
+        },
+        {
+          "item": "中烘 Medium",
+          "amount": "",
+          "note": "中棕、通常无油面；平衡酸与焦糖感。"
+        },
+        {
+          "item": "深烘 Dark",
+          "amount": "",
+          "note": "深棕至近黑、常有油光；焙香/苦甜主导，产地特征减弱。"
+        }
+      ],
+      "method": [
+        "理解：色度谱是连续的；各烘焙商命名不统一。",
+        "检查：看豆面油脂与香气，勿只信「意式=深烘」口号。"
+      ],
+      "notes": "",
+      "source": "NCA Roasts",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "研究站 + 协会",
+      "id": "roast-first-crack",
+      "name": "一爆",
+      "nameEn": "First Crack",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "豆内水汽压力撑破细胞壁产生的可听爆裂；常作为浅–中烘发展的重要节点。"
+        },
+        {
+          "item": "现象",
+          "amount": "",
+          "note": "豆体积显著膨胀、颜色进入浅棕区间。"
+        }
+      ],
+      "method": [
+        "理解：一爆是物理/化学转折提示，不是法定「浅烘完成」定义。",
+        "检查：家焙听声+看色；商用可辅以测温与 Agtron。"
+      ],
+      "notes": "温度数字勿写死为 Normar 默认。",
+      "source": "CoffeeResearch roasting · NCA Roasts context",
+      "sourceUrls": [
+        "https://www.coffeeresearch.org/coffee/roasting.htm",
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "研究站 + 评测机构",
+      "id": "roast-second-crack",
+      "name": "二爆",
+      "nameEn": "Second Crack",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "更深焙阶段的第二次可听爆裂；常伴随油脂外渗与焙香增强。"
+        },
+        {
+          "item": "风险",
+          "amount": "",
+          "note": "过深进入焦苦、产地特征消失。"
+        }
+      ],
+      "method": [
+        "理解：二爆附近进入中深–深烘区；命名仍因烘焙商而异。",
+        "检查：豆面是否开始发亮出油。"
+      ],
+      "notes": "",
+      "source": "CoffeeResearch roasting · Coffee Review roast definitions",
+      "sourceUrls": [
+        "https://www.coffeeresearch.org/coffee/roasting.htm",
+        "https://www.coffeereview.com/roast-definitions/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "roast-resting-degassing",
+      "name": "养豆与排气",
+      "nameEn": "Resting & Degassing",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "烘焙后豆内持续释放 CO₂；适当静置后再磨冲，风味更稳。"
+        },
+        {
+          "item": "窗口提示",
+          "amount": "",
+          "note": "NCA：约静置 2–3 天后可磨冲；理想鲜味常落在烘焙后约 2–7 天（视豆与用途）。"
+        },
+        {
+          "item": "分工",
+          "amount": "",
+          "note": "排气≠开封后保质；后者见储存卡。"
+        }
+      ],
+      "method": [
+        "理解：意式过新可能 crema 不稳或风味尖；过滤对排气敏感度因人而异。",
+        "检查：看烘焙日期而非「最佳赏味」营销语 alone。"
+      ],
+      "notes": "对齐 COFFEE-004 相邻维度。",
+      "source": "NCA Roasts",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "评测 + 烘焙商 + 协会",
+      "id": "roast-agtron-names",
+      "name": "Agtron 与焙名不统一",
+      "nameEn": "Agtron & Inconsistent Roast Names",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "Agtron",
+          "amount": "",
+          "note": "反射式色度读数；数字越低通常越深。"
+        },
+        {
+          "item": "焙名",
+          "amount": "",
+          "note": "City / Full City / French / Italian / Blonde 等因店而异；「意式烘焙」不是法定色度。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "跨品牌比较优先看测色或豆面描述，勿死背名字。"
+        }
+      ],
+      "method": [
+        "理解：同一「Full City」在两家店可能差一个色阶。",
+        "检查：Coffee Review 等会同时给 Agtron 与浅/中/深描述。"
+      ],
+      "notes": "对齐 Obsidian 争议「焙名不统一」。",
+      "source": "Coffee Review roast definitions · Counter Culture Agtron · NCA Roasts",
+      "sourceUrls": [
+        "https://www.coffeereview.com/roast-definitions/",
+        "https://counterculturecoffee.com/blogs/counter-culture-coffee/coffee-basics-roasting",
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "roast-city-names",
+      "name": "City / Full City 等焙名",
+      "nameEn": "City, Full City & Named Roasts",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "常见序列提示",
+          "amount": "",
+          "note": "NCA 举例由浅到深：Blonde/Cinnamon → City → Full City → Vienna → French → Italian。"
+        },
+        {
+          "item": "用途",
+          "amount": "",
+          "note": "帮助读包装；仍须配合色度/出品校验。"
+        }
+      ],
+      "method": [
+        "理解：这是流行命名清单，不是国际强制标准。",
+        "交叉：详见 Agtron 与焙名不统一卡。"
+      ],
+      "notes": "",
+      "source": "NCA Roasts · Popular roasts across the spectrum",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": "市面常见营销话术（功效向）不采信为知识点。",
+      "credibility": "马来厂商强制 + 协会辅",
+      "id": "roast-white-coffee",
+      "name": "白咖啡",
+      "nameEn": "White Coffee / Ipoh White Coffee",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "义项 A · 怡保白咖啡",
+          "amount": "",
+          "note": "马来西亚 Ipoh 文化产品；焙度/配方以各厂商为准（可能含三豆拼配、受控焙度等）。"
+        },
+        {
+          "item": "义项 B · 极浅「白烘」",
+          "amount": "",
+          "note": "部分语境指极浅焙；与怡保产品线勿混成一条。"
+        },
+        {
+          "item": "强制出处",
+          "amount": "",
+          "note": "必须挂马来厂商/协会公开页；课料不可单独过门。"
+        }
+      ],
+      "method": [
+        "理解：白咖啡挂 bean-roast，不挂处理法。",
+        "检查：正文以厂商为准；课料「不加焦糖低温」与部分厂商叙事冲突 → 写入 notes，勿 silently 采一侧。",
+        "剔除：健康/伤胃/低因等功效断言不进正文。"
+      ],
+      "notes": "【冲突】OldTown our-story 写 controlled roasting caramelizes beans / 三豆拼配；课料马来叙事常写「不加焦糖、相对低温/浅焙」对照「加糖浆焦糖高温炭烤」——两侧并存于 notes，正文不单采课料。健康断言一律剥离。对齐 COFFEE-007 附录 A。",
+      "source": "OldTown · MyCofe · MSCA（辅）",
+      "sourceUrls": [
+        "https://www.oldtown.com.my/our-story/",
+        "https://www.mycofe.com.my/index.php/about/company-profile",
+        "https://www.msca.org.my/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "roast-caffeine-myth",
+      "name": "深烘咖啡因更低？（提示）",
+      "nameEn": "Dark Roast Caffeine Myth (Note)",
+      "labelIds": [
+        "bean-roast"
+      ],
+      "labelNames": [
+        "Roast烘焙"
+      ],
+      "ingredients": [
+        {
+          "item": "要点",
+          "amount": "",
+          "note": "深烘风味更「浓」不等于咖啡因更高；浅烘按重量计往往咖啡因略高（NCA）。"
+        },
+        {
+          "item": "口径",
+          "amount": "",
+          "note": "短提示卡；不做营养宣称百科。"
+        }
+      ],
+      "method": [
+        "检查：比较咖啡因应固定剂量单位（重量 vs 勺容）并说明萃取差异。"
+      ],
+      "notes": "对齐 Obsidian 争议卡选题，不作长文。",
+      "source": "NCA Roasts",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/roasts/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "storage-seal-light-temp",
+      "name": "密封避光温度",
+      "nameEn": "Airtight, Dark, Cool Storage",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "敌人",
+          "amount": "",
+          "note": "空气、湿气、热、光。"
+        },
+        {
+          "item": "做法",
+          "amount": "",
+          "note": "不透光密封容器；阴凉处；远离烤箱/洗碗机/烈日柜。"
+        },
+        {
+          "item": "采购",
+          "amount": "",
+          "note": "小批量、够喝 1–2 周为宜。"
+        }
+      ],
+      "method": [
+        "理解：储存目标是减缓失芳，无法「逆转」已失鲜。",
+        "检查：透明展示罐只适合装饰，不适合日常存豆。"
+      ],
+      "notes": "",
+      "source": "NCA Storage and shelf life",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "storage-after-opening",
+      "name": "开封后建议",
+      "nameEn": "After Opening",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "窗口",
+          "amount": "",
+          "note": "NCA：室温开封后熟豆约 1–3 周保持较佳鲜度（转密封容器前提）。"
+        },
+        {
+          "item": "动作",
+          "amount": "",
+          "note": "每次取豆后挤出余气并密封；勿长期半开袋。"
+        }
+      ],
+      "method": [
+        "理解：开封后氧气交换加速失鲜。",
+        "检查：优先看烘焙日期 + 开封日，而非只看包装「最佳」。"
+      ],
+      "notes": "",
+      "source": "NCA Storage and shelf life",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "storage-whole-vs-ground",
+      "name": "整豆优于预磨",
+      "nameEn": "Whole Bean over Pre-ground",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "要点",
+          "amount": "",
+          "note": "现磨可显著保留香气；预磨表面积大，失鲜更快。"
+        },
+        {
+          "item": "NCA 表",
+          "amount": "",
+          "note": "室温：整豆约 1–3 周；粉约 1–2 周（密封良好前提）。"
+        }
+      ],
+      "method": [
+        "检查：能整豆就整豆；粉装更要严格密封与尽快用完。"
+      ],
+      "notes": "",
+      "source": "NCA Storage and shelf life",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "测试媒体 + 协会",
+      "id": "storage-valve-bag",
+      "name": "单向排气阀袋",
+      "nameEn": "One-way Degassing Valve Bag",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "阀允许袋内 CO₂ 排出、限制外界空气进入，避免胀袋。"
+        },
+        {
+          "item": "开封后",
+          "amount": "",
+          "note": "阀不能替代良好密封；开封后仍须压出余气并封口，或转入不透光密封罐。"
+        },
+        {
+          "item": "争议提示",
+          "amount": "",
+          "note": "「有阀门=保鲜完成」不成立。"
+        }
+      ],
+      "method": [
+        "理解：阀服务排气阶段物流；开封后管理靠密封习惯。",
+        "检查：冷冻前有人建议贴住阀口以防泄漏（见冷冻争议卡）。"
+      ],
+      "notes": "对齐 Obsidian 争议「阀门袋等于保鲜完成」。",
+      "source": "America's Test Kitchen valve explainer · NCA storage",
+      "sourceUrls": [
+        "https://www.americastestkitchen.com/articles/8202-coffee-bag-valve-what-is-it",
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "storage-freshness-staling",
+      "name": "新鲜度与失鲜",
+      "nameEn": "Freshness & Staling",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "定义",
+          "amount": "",
+          "note": "熟豆过峰后主要是品质下降（香气变淡、风味平淡），通常仍可安全冲煮（未受潮发霉前提下）。"
+        },
+        {
+          "item": "信号",
+          "amount": "",
+          "note": "香气明显减弱、颜色发灰、杯感空洞。"
+        }
+      ],
+      "method": [
+        "理解：过期感多是感官失鲜，不是「一到日期即有毒」。",
+        "交叉：与养豆窗口分工——先排气，再防失鲜。"
+      ],
+      "notes": "",
+      "source": "NCA Storage and shelf life · Does coffee expire",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会（明示分歧）",
+      "id": "storage-freezing-controversy",
+      "name": "冷冻熟豆（争议）",
+      "nameEn": "Freezing Roasted Beans (Disputed)",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "争议点",
+          "amount": "",
+          "note": "NCA：是否冷冻/冷藏看法不一；咖啡易吸湿吸味。"
+        },
+        {
+          "item": "若冷冻",
+          "amount": "",
+          "note": "必须真正密封；按周分量取用，避免反复解冻结露。NCA 表：冷冻约 3–4 个月量级鲜度参考。"
+        },
+        {
+          "item": "冰箱日常",
+          "amount": "",
+          "note": "日常反复开冰箱存豆不推荐（湿气+异味）。"
+        }
+      ],
+      "method": [
+        "理解：冷冻是长存策略，不是日常「保鲜升级」。",
+        "检查：分装小份、一次取用、勿来回进出。",
+        "标注：本卡明示争议，不写死唯一正确法。"
+      ],
+      "notes": "对齐 Obsidian「冷冻熟豆争议」。",
+      "source": "NCA Storage · freezing section",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    },
+    {
+      "cardType": "knowledge",
+      "reproducibleRecipe": false,
+      "glass": null,
+      "beanNote": null,
+      "tips": null,
+      "story": null,
+      "credibility": "协会科普",
+      "id": "storage-best-by",
+      "name": "最佳食用期解读",
+      "nameEn": "Best-By Date Reading",
+      "labelIds": [
+        "bean-storage"
+      ],
+      "labelNames": [
+        "Storage储存"
+      ],
+      "ingredients": [
+        {
+          "item": "未开封",
+          "amount": "",
+          "note": "NCA：未开封包装可参考 best-by。"
+        },
+        {
+          "item": "开封后",
+          "amount": "",
+          "note": "更关键的是烘焙日、开封日与储存条件。"
+        }
+      ],
+      "method": [
+        "检查：精品豆优先找 roast date；超市豆常只有 best-by。"
+      ],
+      "notes": "",
+      "source": "NCA Storage and shelf life",
+      "sourceUrls": [
+        "https://www.aboutcoffee.org/beans/storage-and-shelf-life/"
+      ]
+    }
+  ]
+}
