@@ -74,11 +74,12 @@
 
 | 项 | 路径 |
 |----|------|
-| Vault 根 | `/workspace/notes/bar-inventory/caffeine-obsidian/`（约 **232** 篇） |
+| Vault 根 | `/workspace/notes/bar-inventory/caffeine-obsidian/`（**219** 篇；云南 **34** 篇。含整理记录 `_index/整理记录-云南庄园育种收刀-2026-10-24.md` 与去囫囵记录 `_index/整理记录-去囫囵-2026-10-24.md`） |
 | 入口 MOC | `…/00-MOC-咖啡因知识库.md` |
 | 011 吸收记录 | `…/_index/课料吸收记录-COFFEE-011.md` |
 | 白咖啡对齐 | `…/_index/白咖啡对齐说明-COFFEE-011.md` |
 | 去囫囵整理 | `…/_index/整理记录-去囫囵-2026-10-24.md` |
+| 云南庄园育种收刀 | `…/_index/整理记录-云南庄园育种收刀-2026-10-24.md` |
 | 白咖啡卡 | `…/咖啡豆/烘焙/白咖啡两义项.md`（须含马来厂商 URL） |
 | 季风草稿（配方侧对齐） | `/workspace/normar-handoff-2026-10-23/results/COFFEE-007-季风马拉巴-知识点草稿.md` |
 
